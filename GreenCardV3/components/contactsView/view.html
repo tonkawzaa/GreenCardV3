@@ -1,11 +1,53 @@
-<div data-role="view" data-title="Contacts" data-layout="main" data-model="app.contactsView" data-show="app.contactsView.onShow" data-after-show="app.contactsView.afterShow">
-    <!-- START_CUSTOM_CODE_contactsView -->
-    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
-    <ul data-role="listview" data-style="inset" data-template="contactsTemplate" data-bind="source: dataSource"></ul>
+<div data-role="view" data-title="" data-layout="main" data-model="app.contactsView" data-show="app.contactsView.onShow" data-after-show="app.contactsView.afterShow">
+     
+    <div id = "headerinformation">
+        <table class="message tdwidth">
+            <tr>
+                
+                <td class="left">
+                    <a id="Drawer_information" data-role="button" href="#appDrawer" data-rel="drawer" data-align="left">
+                        <img src="imagesDrawer/icon-menu.png" class="drawericon" >
+                    </a>
+                </td>
+                
+                <td class="right">
+                    <span class="point"> คะแนนสะสม  <br></span>
+                    <span  class="point" data-bind="text: data" ></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div  id="information_divmain_BIE" class="divmain_BIE clock-container " >
+        <table></table>
         
-    <!-- this is the template used by the listview. template items are automatically wrapped in an <li> by Kendo UI Mobile -->
-    <script type="text/x-kendo-template" id="contactsTemplate">
-        <a data-bind="click: alert">#: data.name #</a>
-    </script>
-    <!-- END_CUSTOM_CODE_contactsView -->
+        
+    </div>
+   
+       <div id="information_BIElogodiv" class="BIElogodiv">
+
+            <table >
+            <tr>
+                <td class="BIElogo_tdleft">
+                    <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: informationModel.information }"  >
+                    <span class="center message h5">
+                        สะสมคะแนน
+                    </span>
+                </td>
+                <td style="BIElogo_tdcenter">
+                    <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: informationModel.earn }" >
+                    <span class="center message h4">
+                        ฉลาดซื้อฉลาดเลือก
+                    </span>
+                </td>
+                <td class="BIElogo_tdright">
+                    <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: informationModel.burnPoint }">
+                    <span class="center message h5">
+                        รับสิทธิ์
+                    </span>
+                </td>
+            </tr>
+        </table>
+       
+        </div>
 </div>
