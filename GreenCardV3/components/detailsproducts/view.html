@@ -1,5 +1,6 @@
-<div data-role="view" data-title="" data-reload="true" data-layout="main" data-model="app.earn" data-show="app.earn.onShow" data-after-show="app.earn.afterShow" >
-    <div id = "headerearnGreen">
+<div data-role="view" data-title="" data-reload="true" data-layout="main" data-model="app.detailsproducts" data-show="app.detailsproducts.onShow" data-after-show="app.detailsproducts.afterShow"  >
+
+    <div id = "headerdetailsproducts">
         <table class="message tdwidth">
             <tr>
                 
@@ -17,39 +18,29 @@
         </table>
     </div>
     
-    <div  id="earnGreen_divmain_BIE" class="divmain_BIE clock-container" >
+    <div  id="headerdetailsproducts_divmain_BIE" class="divmain_BIE clock-container" >
         <table></table>
-        <div class="bgcolor scrollViewinfopage   message"  >
-            <img  src="images/pic-barcode.jpg" style="margin:10px auto;display:block;width: 45%; height: auto;" />
-        </div>
-      <div id="scanview" class="button-group bottom_position2"> 
-		<a class="primary"   data-role="button" data-bind="events: { click: scan }">ยืนยัน</a>
-  	</div>
-      <div id="scanview2" class="button-group bottom_position"> 
-            <a  class="primary2"  data-role="button" data-bind="events: { click: earnbyid }">ไม่พบบาร์โค้ด</a>
-  	</div>
-        
     </div>
     
-    <div id="earnGreen_BIElogodiv" class="BIElogodiv">
+    <div id="headerdetailsproducts_BIElogodiv" class="BIElogodiv">
 
             <table >
             <tr>
                 <td class="BIElogo_tdleft">
-                    <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: earnModel.information }" >
+                    <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: information }" >
                     <span class="center message h5">
                         ฉลาดซื้อ<br>ฉลาดเลือก
                     </span>
                 </td>
                 <td style="BIElogo_tdcenter">
                     
-                    <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: earnModel.earn }"  >
+                    <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: earn }"  >
                     <span class="center message h4">
                         สะสมคะแนน
                     </span>
                 </td>
                 <td class="BIElogo_tdright">
-                    <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: earnModel.burnPoint }">
+                    <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: burnPoint }">
                     <span class="center message h5">
                         รับสิทธิ์<br><br>
                     </span>

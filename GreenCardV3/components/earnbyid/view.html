@@ -1,0 +1,112 @@
+<div data-role="view" data-title="" data-reload="true" data-layout="main" data-model="app.earnbyid" data-show="app.earnbyid.onShow" data-after-show="app.earnbyid.afterShow" >
+    <div id = "headerearnbyid">
+        <table class="message tdwidth">
+            <tr>
+                
+                <td class="left">
+                    <a id="Drawer_earnGreen" data-role="button" href="#appDrawer" data-rel="drawer" data-align="left">
+                        <img src="imagesDrawer/icon-menu.png" class="drawericon" >
+                    </a>
+                </td>
+                
+                <td class="right">
+                    <span class="point"> คะแนนสะสม  <br></span>
+                    <span  class="point" data-bind="text: data" ></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+   <div  id="earnbyid_divmain_BIE" class="divmain_BIE clock-container" >
+        <table></table>
+       
+     <div>
+      <div class="clock">
+		<div class="clock-container">
+			<div class="clock-12">
+				<img src= "keyin_image/icon-01on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage1 }"  />
+			</div>
+			<div class="clock-1">
+				<img src= "keyin_image/icon-02on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage2 }"  />
+			</div>
+			<div class="clock-2">
+				<img src= "keyin_image/icon-03on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage3 }"  /> 
+			</div>
+			<div class="clock-3">
+				<img src= "keyin_image/icon-04on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage4 }"  /> 
+			</div>
+			<div class="clock-4">
+				<img src= "keyin_image/icon-05on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage5 }"  /> 
+			</div>
+			<div class="clock-5">
+				<img src= "keyin_image/icon-06on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage6 }"  /> 
+			</div>
+			<div class="clock-6">
+				<img src= "keyin_image/icon-07on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage7 }"  /> 
+			</div>
+			<div class="clock-7">
+				<img src= "keyin_image/icon-08on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage8 }"  /> 
+			</div>
+			<div class="clock-8">
+				<img src= "keyin_image/icon-09on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage9 }"  /> 
+			</div>
+			<div class="clock-9">
+				<img src= "keyin_image/icon-10on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage10 }"  /> 
+			</div>
+			<div class="clock-10">
+				<img src= "keyin_image/icon-11on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage11 }"  />
+			</div>
+			<div class="clock-11">
+				<img src= "keyin_image/icon-12on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage12 }"  />
+			</div>
+		</div>
+             
+	  </div>
+        
+        <div class="clock-text">
+            <span class="h2">รักษ์โลกง่ายๆ
+                </span>
+            <br><span class="h2">
+                ทำได้ 24 ชั่งโมง
+                
+                
+            </span>
+         </div>
+         
+       
+        
+            <div class="button-group btn-category-cancel" >
+                    <a class="primary2" data-role="backbutton" data-transition="slide:left reverse" >ยกเลิก</a>
+            </div>
+        
+       </div>
+   </div>
+    
+    <div id="earnGreen_BIElogodiv" class="BIElogodiv">
+
+            <table >
+            <tr>
+                <td class="BIElogo_tdleft">
+                    <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: earnbyidModel.information }" >
+                    <span class="center message h5">
+                        ฉลาดซื้อ<br>ฉลาดเลือก
+                    </span>
+                </td>
+                <td style="BIElogo_tdcenter">
+                    
+                    <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: earnbyidModel.earn }"  >
+                    <span class="center message h4">
+                        สะสมคะแนน
+                    </span>
+                </td>
+                <td class="BIElogo_tdright">
+                    <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: earnbyidModel.burnPoint }">
+                    <span class="center message h5">
+                        รับสิทธิ์<br><br>
+                    </span>
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+ </div>

@@ -23,7 +23,7 @@ app.welcome = kendo.observable({
                         error: function() {
                             
                             navigator.notification.alert("กรุณาลงชื่อเข้าใช้ใหม่");
-                            app.mobileApp.navigate('components/signin/view.html');
+                            app.mobileApp.navigate('components/homeView/view.html');
                             
                         }
                 });
