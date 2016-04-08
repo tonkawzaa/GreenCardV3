@@ -1,0 +1,80 @@
+<div data-role="view" data-title="" data-reload="true" data-layout="main" data-model="app.burnPoint" data-show="app.burnPoint.onShow" data-after-show="app.burnPoint.afterShow"  >
+
+    <div id = "headerburnPoint">
+        <table class="message tdwidth">
+            <tr>
+                
+                <td class="left">
+                    <a id="Drawer_burnPoint" data-role="button" href="#appDrawer" data-rel="drawer" data-align="left">
+                        <img src="imagesDrawer/icon-menu.png" class="drawericon" >
+                    </a>
+                </td>
+                
+                <td class="right">
+                    <span class="point"> คะแนนสะสม  <br></span>
+                    <span  class="point" data-bind="text: data" ></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div  id="burnPoint_divmain_BIE" class="divmain_BIE clock-container" >
+        <table></table>
+       <div data-role="scroller"  class="bgcolor scrollViewinfopage  giftscroller"  >
+            <div class="km-scrollview-overlay  km-scroll-container2"
+                data-role="scrollview"
+                data-source="app.burnPoint.eventgiftsdata"
+                data-template="scrollview-template"
+                data-content-height="20vh"
+                data-pager-overlay="true"
+                data-enable-pager="true"
+                id="scrollvieweventgiftsdata">
+        	</div>
+           <script type="text/x-kendo-template" id="scrollview-template"> 
+               
+                   <a href="\\#components/detailsgifts/view.html?id=#: id #" class="bgcolor">
+                    <img class="img_scrollview_gifts" src="#: image_url #" />
+                   </a>
+              
+               
+           </script>
+             <ul id="giftslist" class="grid bgcolor"></ul>
+           
+           <script id="giftslisttmp" type="text/x-kendo-template">
+               <a href="components/detailsgifts/view.html?requiredpoints=#: required_points#&id=#: id #"> 
+               <img class="BIElogoimg" src="#: image_url #"/>
+             </a>
+           </script>
+            
+      </div>
+    </div>
+    
+    <div id="burnPoint_BIElogodiv" class="BIElogodiv">
+
+            <table >
+            <tr>
+                <td class="BIElogo_tdleft">
+                    <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: burnPointModel.information }" >
+                    <span class="center message h5">
+                        ฉลาดซื้อ<br>ฉลาดเลือก
+                    </span>
+                </td>
+                <td style="BIElogo_tdcenter">
+                    <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: burnPointModel.burnPoint }">
+                    <span class="center message h4">
+                        รับสิทธิ์
+                    </span>
+                    
+                </td>
+                <td class="BIElogo_tdright">
+                    <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: burnPointModel.earn }"  >
+                    <span class="center message h5">
+                        สะสมคะแนน<br><br>
+                    </span>
+                </td>
+            </tr>
+        </table>
+       
+        </div>
+   
+</div>

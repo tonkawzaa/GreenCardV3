@@ -1,0 +1,190 @@
+<div data-role="view" data-title="" data-reload="true" data-layout="main" data-model="app.detailsgifts" data-show="app.detailsgifts.onShow" data-after-show="app.detailsgifts.afterShow"  >
+   <div  class="details-view">
+    <div id = "headerdetailsgifts">
+        <table class="message tdwidth">
+            <tr>
+                
+                <td class="left">
+                    <a id="Drawer_detailsgifts" data-role="button" href="#appDrawer" data-rel="drawer" data-align="left">
+                        <img src="imagesDrawer/icon-menu.png" class="drawericon" >
+                    </a>
+                </td>
+                
+                <td class="right">
+                    <span class="point"> คะแนนสะสม  <br></span>
+                    <span  class="point" data-bind="text: data" ></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div  id="detailsgifts_divmain_BIE" class="divmain_BIE clock-container bgcolor" >
+        <table></table>
+        <div data-role="scroller"  class="bgcolor scrollViewinfopage  giftscroller"  >
+            <div id="data2Content" class=" bgcolor" > 
+               
+                    <img class="img_scrollview_gifts" data-bind="attr: { src: image_url }" />
+                
+                    <table border="0" class="tdwidth header_details_gifts_logo">
+                        <tr>
+                            <td class="BIElogo_tdleft" >
+                                <img  class="logo_detailsgift" data-bind="attr: { src: supplier_image_url }" />
+                            </td>
+                            <td class="bottom ">
+                                <span class="right h5"  data-bind="text: name"></span><br>
+                            </td>
+                        </tr>
+                    </table>
+                
+                    <table>
+                     <tr>
+                      <td>
+                        <span class ="h5">
+                          รายละเอียดสินค้า
+                        </span>
+                      </td>
+                     </tr>
+                     <tr>
+                      <td>
+                       <span data-bind="html: desc_to_publish" ></span> 
+                      </td>
+                     </tr>
+                    </table>
+                
+	        </div> 
+            
+            <div id="detailsgiftspoint" class="message bgcolor red">
+                    <span >** รหัสจะมีอายุ 1 ชั่งโมงหลังกดใช้</span> 
+                    <span data-bind="text: point" ></span> 
+                    <span> Point**</span>
+            </div>
+            
+             
+            
+              <div id="submitfunc" class="form-view bgcolor">
+                <form>
+    			<div class="button-group">
+                    <a  class="primary" data-role="button" data-bind="events: { click: submit }">ตกลง</a>
+                </div>
+                <div class="button-group">
+                    <a  class="primary2" data-role="button" data-transition="slide" data-bind="events: { click: cancel }">ยกเลิก</a>
+                </div>
+               </form>
+  	        </div>
+        </div>
+    </div>
+    
+    <div id="detailsgifts_BIElogodiv" class="BIElogodiv">
+
+            <table >
+            <tr>
+                <td class="BIElogo_tdleft">
+                    <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: detailsgiftsModel.information }" >
+                    <span class="center message h5">
+                        ฉลาดซื้อ<br>ฉลาดเลือก
+                    </span>
+                </td>
+                <td style="BIElogo_tdcenter">
+                    <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: detailsgiftsModel.burnPoint }">
+                    <span class="center message h4">
+                        รับสิทธิ์
+                    </span>
+                    
+                </td>
+                <td class="BIElogo_tdright">
+                    <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: detailsgiftsModel.earn }"  >
+                    <span class="center message h5">
+                        สะสมคะแนน<br><br>
+                    </span>
+                </td>
+            </tr>
+        </table>
+       
+        </div>
+   </div>
+    
+    <!-----     for show when sumit --------->
+    
+    <div  class="sumit-view" class="message" style="display:none;" >
+        <div id = "headerdetailsgiftssumit">
+            <table class="message tdwidth">
+                <tr>
+                    
+                    <td class="left">
+                        <a id="Drawer_detailsgifts" data-role="button" href="#appDrawer" data-rel="drawer" data-align="left">
+                            <img src="imagesDrawer/icon-menu.png" class="drawericon" >
+                        </a>
+                    </td>
+                    
+                    <td class="right">
+                        <span class="point"> คะแนนสะสม  <br></span>
+                        <span  class="point" data-bind="text: data" ></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div  id="detailsgiftssumit_divmain_BIE" class="divmain_BIE clock-container bgcolor" >
+            <table></table>
+            <div data-role="scroller"  class="bgcolor scrollViewinfopage  giftscroller message"  >
+                <div id="sumitContent" class="bgcolor" >
+                  <img class="img_scrollview_gifts" data-bind="attr: { src: image_url }" />
+            	  <br>
+                  <span class="h5" data-bind="text: name"></span>
+        		</div>
+                
+                <div id="sumitgift_code" class="bgcolor" >
+                 <span>
+                     รับสิทธิ์เมื่อ
+                 </span>
+                 <span data-bind="text: create_date"></span><br>
+                     
+                 <span class="h3" style="color:#008745" data-bind="text: gift_code"></span><br>
+                 
+                 <span> 
+                     กรุณาแสดงรหัสนี้ให้กับร้านค้าเพื่อใช้สิทธิ์ 
+                 </span><br>
+		         <span>  
+                     ขอบคุณ  
+                 </span>
+                </div>
+                
+                <div id="close_func" class="button-group bgcolor">
+		            <a class="primary" data-role="button" data-bind="events: { click: close_func }">ปิด</a>
+                    <img class="right"  src="images/dtr-logo.png" style="width: 30%; height: auto;" />
+		        </div>
+                
+            </div>
+        </div>
+        
+        <div id="detailsgiftssumit_BIElogodiv" class="BIElogodiv">
+
+            <table >
+                <tr>
+                    <td class="BIElogo_tdleft">
+                        <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: detailsgiftsModel.information }" >
+                        <span class="center message h5">
+                            ฉลาดซื้อ<br>ฉลาดเลือก
+                        </span>
+                    </td>
+                    <td style="BIElogo_tdcenter">
+                        <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: detailsgiftsModel.burnPoint }">
+                        <span class="center message h4">
+                            รับสิทธิ์
+                        </span>
+                        
+                    </td>
+                    <td class="BIElogo_tdright">
+                        <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: detailsgiftsModel.earn }"  >
+                        <span class="center message h5">
+                            สะสมคะแนน<br><br>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+       
+        </div>
+        
+    </div>
+    
+</div>

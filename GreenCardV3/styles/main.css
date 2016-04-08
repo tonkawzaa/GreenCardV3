@@ -394,6 +394,13 @@ span{
    font-weight: normal;
    font-style: normal;
 }
+.background_image{
+    
+    background-image: url('../images/pic-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #18a684;
+}
 
 .form_reg {
     font-size: 1em;
@@ -437,8 +444,8 @@ span{
     background-color: #f1f1f1;
 }
 .divmain_BIE{
-    margin:5em 1em 3em 1em;
-    height:75vh;
+    margin:3.5em 1em 3em 1em;
+    height:79vh;
     width: auto;
     background-color: #f1f1f1;
 }
@@ -450,7 +457,7 @@ span{
     height:74vh;
 }
 .scrollViewinfopage{
-    margin:6em 1em 0em 1em;
+    margin:8.5em 1em 0em 1em;
 }
 .logo{
     margin:2em auto 0em auto;
@@ -511,6 +518,16 @@ span{
 .BIElogo_tdright{
     width:29%;
 }
+.logo_detailsgift{
+    width:auto;
+    height:4em;
+    margin:0px auto;
+    display:block;
+}
+.img_scrollview_gifts{
+    width:100%;
+    height:20vh;
+}
 .div_dot{
     margin:6em auto 1em auto;
     display:block;
@@ -540,6 +557,20 @@ span{
 .cerscroller{
     height: 30vh;
 }
+.giftscroller{
+    height: 58vh;
+}
+.grid li 
+{ 
+     
+     float: left;
+     width: 50%; 
+     height: auto; 
+    /* border-right: 1px dotted #CCC;
+     border-bottom: 1px dotted #CCC;*/
+     
+    
+ }
 .button_dot{
         width: 1em; 
         height: auto;
@@ -560,6 +591,9 @@ span{
 .left{
     float:left;
 }
+.bottom{
+    vertical-align:bottom;
+}
 .center{
     margin:0em auto 0em auto;
     display:block;
@@ -571,6 +605,9 @@ span{
 }
 .tdwidth{
     width:100%;
+}
+.header_details_gifts_logo{
+    margin:-1.5em 0em 0em 0em ;
 }
 .from_bg{
     background-image: url('../images/button-green-outline.png');
@@ -604,6 +641,9 @@ span.k-widget.k-tooltip-validation {
 }
 .welcome{
     margin-top: 4em;
+}
+.red{
+    color:red;
 }
 .bottom_position{
     position: absolute; 
@@ -641,8 +681,8 @@ span.k-widget.k-tooltip-validation {
         height:85vh;
     }
     .divmain_BIE{
-        margin:9em 1em 3em 1em;
-        height:73vh;
+        margin:7em 1em 3em 1em;
+        height:77vh;
 
     }
     .logo_reigister{
@@ -658,7 +698,14 @@ span.k-widget.k-tooltip-validation {
     margin:8em auto 0px auto;        
     }
     .scrollViewinfopage{
-        margin:8em 1em 0em 1em;
+        margin:9.5em 1em 0em 1em;
+    }
+    .img_scrollview_gifts{
+        width:100%;
+        height:30vh;
+    }
+    .logo_detailsgift{
+        height:5em;
     }
 
     .h1{

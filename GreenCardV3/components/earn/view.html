@@ -1,0 +1,53 @@
+<div data-role="view" data-title="" data-reload="true" data-layout="main" data-model="app.earn" data-show="app.earn.onShow" data-after-show="app.earn.afterShow" >
+    <div id = "headerearnGreen">
+        <table class="message tdwidth">
+            <tr>
+                
+                <td class="left">
+                    <a id="Drawer_earnGreen" data-role="button" href="#appDrawer" data-rel="drawer" data-align="left">
+                        <img src="imagesDrawer/icon-menu.png" class="drawericon" >
+                    </a>
+                </td>
+                
+                <td class="right">
+                    <span class="point"> คะแนนสะสม  <br></span>
+                    <span  class="point" data-bind="text: data" ></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div  id="earnGreen_divmain_BIE" class="divmain_BIE clock-container" >
+        <table></table>
+        
+        
+    </div>
+    
+    <div id="earnGreen_BIElogodiv" class="BIElogodiv">
+
+            <table >
+            <tr>
+                <td class="BIElogo_tdleft">
+                    <img src="images/icon-point.png" class="BIElogoimg" data-bind="events: { click: earnModel.information }" >
+                    <span class="center message h5">
+                        ฉลาดซื้อ<br>ฉลาดเลือก
+                    </span>
+                </td>
+                <td style="BIElogo_tdcenter">
+                    
+                    <img src="images/icon-earn-point.png" class="BIElogoimg" data-bind="events: { click: earnModel.earn }"  >
+                    <span class="center message h4">
+                        สะสมคะแนน
+                    </span>
+                </td>
+                <td class="BIElogo_tdright">
+                    <img src="images/icon-burn-point.png" class="BIElogoimg" data-bind="events: { click: earnModel.burnPoint }">
+                    <span class="center message h5">
+                        รับสิทธิ์<br><br>
+                    </span>
+                </td>
+            </tr>
+        </table>
+       
+        </div>
+</div>

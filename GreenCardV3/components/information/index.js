@@ -56,16 +56,16 @@ app.information = kendo.observable({
        
         information: function() {
             //navigator.notification.alert("information");
-				//app.mobileApp.navigate('components/information/view.html');
-            app.mobileApp.navigate('components/welcome/view.html');
+				app.mobileApp.navigate('components/information/view.html');
+            
         },
          earn: function() {   
-             navigator.notification.alert("earn");
-				//app.mobileApp.navigate('components/earn/view.html');
+             //navigator.notification.alert("earn");
+				app.mobileApp.navigate('components/earn/view.html');
         }, 
         burnPoint: function() {
-            navigator.notification.alert("burnPoint");
-				//app.mobileApp.navigate('components/burnPoint/view.html');
+            //navigator.notification.alert("burnPoint");
+				app.mobileApp.navigate('components/burnPoint/view.html');
         },
        
     });
