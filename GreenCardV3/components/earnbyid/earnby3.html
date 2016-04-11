@@ -1,5 +1,5 @@
 <div data-role="view" data-title="" data-reload="true" data-layout="main" data-model="app.earnbyid" data-show="app.earnbyid.onShow" data-after-show="app.earnbyid.afterShow" >
-    <div id = "headerearnbyid">
+    <div id = "headerearnbyid3">
         <table class="message tdwidth">
             <tr>
                 
@@ -17,7 +17,7 @@
         </table>
     </div>
     
-   <div  id="earnbyid_divmain_BIE" class="divmain_BIE clock-container  km-scroll-container2 " >
+   <div  id="earnbyid3_divmain_BIE" class="divmain_BIE clock-container  km-scroll-container2 " >
        <table></table>
      
          <div data-role="scroller"   class="bgcolor scrollViewinfopage  giftscroller"  >
@@ -32,7 +32,7 @@
             				<img src= "keyin_image/icon-02on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage2 }"  />
             			</div>
             			<div class="clock-2">
-            				<img src= "keyin_image/icon-03on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage3 }"  /> 
+            				<img src= "keyin_image/icon-03over.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage3 }"  /> 
             			</div>
             			<div class="clock-3">
             				<img src= "keyin_image/icon-04on.png" class="icon_keyin" data-bind="events: { click: earnbyidModel.clickedImage4 }"  /> 
@@ -65,14 +65,11 @@
                  
     	         </div>
                
-                 <div class="clock-text">
+                 <div class="clock-text_1line">
                   <span class="h2">
-                      รักษ์โลกง่ายๆ
+                      เครื่องนุ่งหุ่ม
                   </span>
-                    <br>
-                  <span class="h2">
-                        ทำได้ 24 ชั่วโมง
-                  </span>
+      
                   </div>
                  
                  
@@ -82,7 +79,15 @@
                 <table class="after_clock">
                     
                 </table>
-                 
+                 <div id="earnbyid3" data-role="listview" data-source="app.earnbyid.dataearnbyid3" data-template="earnlisttmp" class="grid"></div>
+       
+                 <script id="earnlisttmp" type="text/x-kendo-template">
+                   <a href="components/detailsproductsbyid/view.html?id=#: id #">
+            
+                    <img class="BIElogoimg" src="#: image_url #"/>
+                    
+                     </a>
+                   </script>
                  <div class="button-group  " >
                         <a class="primary2" data-role="backbutton" data-transition="slide:left reverse" >ยกเลิก</a>
                 </div>
@@ -92,7 +97,7 @@
          </div>
    </div>
     
-    <div id="earnGreen_BIElogodiv" class="BIElogodiv">
+    <div id="earnbyid3Green_BIElogodiv" class="BIElogodiv">
     
         <table >
             <tr>

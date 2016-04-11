@@ -566,7 +566,7 @@ span{
      
      float: left;
      width: 50%; 
-     height: auto; 
+     height: 6em; 
     /* border-right: 1px dotted #CCC;
      border-bottom: 1px dotted #CCC;*/
      
@@ -681,6 +681,14 @@ span.k-widget.k-tooltip-validation {
 .clock-text { position: absolute; top: 20vh; left: 50%; transform: translate(-50%, 0); 
     text-align: center; 
 }
+.clock-text_1line{
+    position: absolute; top: 22vh; left: 50%; transform: translate(-50%, 0); 
+    text-align: center; 
+}
+.clock-text_1linev2{
+    position: absolute; top: 22vh; left: 50%; transform: translate(-50%, 0); 
+    text-align: center; 
+}
 .btn-category-cancel { position: absolute; margin-top: 47vh; margin-left: auto; margin-right: auto;}
 .after_clock{
     margin-top: 50vh;
@@ -749,6 +757,10 @@ span.k-widget.k-tooltip-validation {
     .icon_keyin{
         width:5.5em;
     }
+    .grid li 
+    { 
+     height: 10em; 
+     }
 	.clock { top: 20vh; left: 38vw; }
 	.clock-12 { top: -180px; left: 0px; }
 	.clock-1 { top: -155.88px; left: 90px; }
@@ -762,7 +774,9 @@ span.k-widget.k-tooltip-validation {
 	.clock-9 { top: 0px; left: -180px; }
 	.clock-10 { top: -90px; left: -155.88px; }
 	.clock-11 { top: -155.88px; left: -90px;}
-    .clock-text { position: absolute; top: 20vh; left: 35%; transform: translate(-50%, 0);  }
+    .clock-text {  top: 20vh; left: 37%;   }
+    .clock-text_1line{ top: 22vh; left: 37%;  }
+    .clock-text_1linev2{left: 45%; }
     .btn-category-cancel { margin-top: 69vh;}
     .div_after_clock{
         margin-top: -1em;

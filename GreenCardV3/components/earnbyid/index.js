@@ -202,7 +202,7 @@ app.earnbyid = kendo.observable({
                             type: "POST",
                             url: "https://greenapi.odooportal.com/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
-                             data: JSON.stringify({ category_name: "วัสดุก่อสร้าง" }),
+                             data: JSON.stringify({ category_name: "เครื่องใช้ในบ้านเรือน" }),
                             dataType: "json",
                                 success: function (result) {
                                 //navigator.notification.alert(result.data);
@@ -234,7 +234,7 @@ app.earnbyid = kendo.observable({
                             type: "POST",
                             url: "https://greenapi.odooportal.com/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
-                             data: JSON.stringify({ category_name: "เครื่องใช้ในบ้านเรือน" }),
+                             data: JSON.stringify({ category_name: "วัสดุก่อสร้าง" }),
                             dataType: "json",
                                 success: function (result) {
                                 //navigator.notification.alert(result.data);
@@ -266,7 +266,7 @@ app.earnbyid = kendo.observable({
                             type: "POST",
                             url: "https://greenapi.odooportal.com/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
-                             data: JSON.stringify({ category_name: "การเดินทาง" }),
+                             data: JSON.stringify({ category_name: "โรงแรม" }),
                             dataType: "json",
                                 success: function (result) {
                                 //navigator.notification.alert(result.data);
@@ -298,7 +298,7 @@ app.earnbyid = kendo.observable({
                             type: "POST",
                             url: "https://greenapi.odooportal.com/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
-                             data: JSON.stringify({ category_name: "โรงแรม" }),
+                             data: JSON.stringify({ category_name: "การเดินทาง" }),
                             dataType: "json",
                                 success: function (result) {
                                 //navigator.notification.alert(result.data);
@@ -322,6 +322,7 @@ app.earnbyid = kendo.observable({
                     },
             },
     }),
+    
     dataearnbyid11: new kendo.data.DataSource({
                 type: "data",
             transport: {
