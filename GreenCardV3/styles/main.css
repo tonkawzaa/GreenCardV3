@@ -387,6 +387,7 @@ text {
 input{
      border:0px;
      width:80%;
+    background-color : #f1f1f1;
 }
 
 span{
@@ -408,6 +409,15 @@ span{
     /*color: #ffffff;*/
 }
 .point{
+
+    margin:0em 0.5em 0em 0em;
+    float:right;
+    font-size: 1.5em;
+    color: #fff;
+}
+.point2{
+    margin:0em 2em 0em 0em;
+    
     font-size: 1.5em;
     color: #fff;
 }
@@ -646,6 +656,9 @@ span{
 }
 .header_details_gifts_logo{
     margin:-1.5em 0em 0em 0em ;
+}
+.delete_gap{
+    margin:-0.25em 0em -0.25em 0em ;
 }
 .from_bg{
     background-image: url('../images/button-green-outline.png');

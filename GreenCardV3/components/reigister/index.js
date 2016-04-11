@@ -16,7 +16,7 @@ app.reigister = kendo.observable({
     var token= null ;
     var reigisterModel = kendo.observable({
         fields: {
-            
+            /*
             occupation: '',
             citizenid: '1234567890',
             birthdate: '',
@@ -27,7 +27,8 @@ app.reigister = kendo.observable({
             lastname: 'lastname',
             firstname: 'firstname',
             email: 'top@gmail.com',
-            /*
+            */
+            
             occupation: '',
             citizenid: '',
             birthdate: '',
@@ -38,7 +39,7 @@ app.reigister = kendo.observable({
             lastname: '',
             firstname: '',
             email: '',
-            */
+            
         },
 
         submit: function(e) {
@@ -74,7 +75,7 @@ app.reigister = kendo.observable({
                             }else
                             if(result.data.error_code=="SignupError01")
                             {
-                                navigator.notification.alert("โปรดกรอกข้อมูลให้ครบ");
+                                navigator.notification.alert("กรุณากรอกข้อมูลให้ครบ");
                             }else if(result.data.error_code=="SignupError02")
                             {
                                 navigator.notification.alert("กรอก password ไม่ตรงกัน");
@@ -107,7 +108,7 @@ app.reigister = kendo.observable({
                         //navigator.notification.alert(validator.validate());
                         $(activeView).show().siblings().hide();
                     }else{
-                       navigator.notification.alert("โปรดกรอกข้อมูลให้ครบ");
+                       navigator.notification.alert("กรุณากรอกข้อมูลให้ครบ");
                     }
                 
             },

@@ -24,7 +24,7 @@ app.detailsproductsbyid = kendo.observable({
                 			template: kendo.template($("#tmp").html()),
                 			dataSource: result.data.certifications,           
                              });
-                                    /*
+                          /*
                            e.view.element.find("#product_by_id_list_cert").kendoMobileScrollView({
                 			template: kendo.template($("#product_by_id_list_cert_tmp").html()),
                 			dataSource: result.data.certifications, 
@@ -101,7 +101,8 @@ app.detailsproductsbyid = kendo.observable({
       var detailsshopbyidModel = kendo.observable({
         
         fields: {
-            selectedshop: 23,
+            //selectedshop: 23,
+            selectedshop: null,
         },
 
         }); 
@@ -112,8 +113,11 @@ app.detailsproductsbyid = kendo.observable({
                     
                     //navigator.notification.alert(item);
                     //navigator.notification.alert(detailsshopbyidModel.fields.selectedshop);
-                    
-                  $.ajax({
+                    if(detailsshopbyidModel.fields.selectedshop == null)
+                    {
+                        navigator.notification.alert("กรุณาระบุห้างสรรพสินค้า");
+                    }else{
+                        $.ajax({
                         type: "POST",
                         url: "https://greenapi.odooportal.com/api/v1/earn",
                         contentType: "application/json",
@@ -131,16 +135,16 @@ app.detailsproductsbyid = kendo.observable({
                             }else
                             if(result.data.error_code=="EarnError01")
                             {
-                                navigator.notification.alert("วันนี้คุณสะสมแต้มสินค้านี้ครบลิมิต");
+                                navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
                             }else if(result.data.error_code=="EarnError02")
                             {
-                                navigator.notification.alert("เดือนนี้คุณสะสมแต้มสินค้านี้ครบลิมิต");
+                                navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
                             }else if(result.data.error_code=="EarnError03")
                             {
-                                navigator.notification.alert("วันนี้สินค้าครบลิมิต");
+                                navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
                             }else if(result.data.error_code=="EarnError04")
                             {
-                                navigator.notification.alert("เดือนนี้สินค้าครบลิมิต");
+                                navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
                             }
                         },
                         error: function(result) {
@@ -148,6 +152,9 @@ app.detailsproductsbyid = kendo.observable({
                             navigator.notification.alert("ระบบผิดพลาด"); 
                         }
                     });
+                        
+                    }
+                  
                     
                 },
              gotoearn : function() {

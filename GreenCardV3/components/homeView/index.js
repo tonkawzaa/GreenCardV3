@@ -10,13 +10,14 @@ app.homeView = kendo.observable({
 (function (parent) {
     var homeViewModel = kendo.observable({
         fields: {
-            
+            /*
             password: '045281842',
             email: 'topx@gmail.com',
-            /*
+            */
+            
             password: '',
             email: '',
-            */
+            
         },
         submit: function(e) {
             var validator = $("#homeViewModel").data("kendoValidator");

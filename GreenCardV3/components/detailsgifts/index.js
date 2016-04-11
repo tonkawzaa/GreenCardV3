@@ -75,19 +75,19 @@ app.detailsgifts = kendo.observable({
                             }else
                             if(result.data.error_code=="BurnError01")
                             {
-                                navigator.notification.alert("วันนี้คุณรับสิทธิ์สินค้านี้ครบลิมิต");
+                                navigator.notification.alert("มีการรับสิทธิ์ครบแล้ว");
                             }else if(result.data.error_code=="BurnError02")
                             {
-                                navigator.notification.alert("เดือนนี้คุณรับสิทธิ์สินค้านี้ครบลิมิต");
+                                navigator.notification.alert("มีการรับสิทธิ์ครบแล้ว");
                             }else if(result.data.error_code=="BurnError03")
                             {
-                                navigator.notification.alert("วันนี้รับสิทธิ์ครบลิมิต");
+                                navigator.notification.alert("มีการรับสิทธิ์ครบแล้ว");
                             }else if(result.data.error_code=="BurnError04")
                             {
-                                navigator.notification.alert("เดือนนี้รับสิทธิ์ครบลิมิต");
+                                navigator.notification.alert("มีการรับสิทธิ์ครบแล้ว");
                             }else if(result.data.error_code=="BurnError05")
                             {
-                                navigator.notification.alert("แต้มของท่านไม่พอ");
+                                navigator.notification.alert("คะแนนของท่านไม่พอ");
                             }
                             
                             

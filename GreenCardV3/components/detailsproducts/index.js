@@ -94,7 +94,8 @@ app.detailsproducts = kendo.observable({
               var detailsshop_detailsproducts_Model = kendo.observable({
         
         fields: {
-            selectedshop: 25,
+            //selectedshop: 25,
+            selectedshop: null,
         },
 
         }); 
@@ -105,58 +106,65 @@ app.detailsproducts = kendo.observable({
                     
                     //navigator.notification.alert(item);
                     //navigator.notification.alert(detailsshop_detailsproducts_Model.fields.selectedshop);
-                    
-               $.ajax({
-               type: "POST",
-               url: "https://greenapi.odooportal.com/api/v1/product_by_barcode",
-               contentType: "application/json",
-               data: JSON.stringify({ barcode: item }),
-               success: function(result) {
-                   var product_id=result.data.id;
-                  // navigator.notification.alert(product_id);
+                     if(detailsshop_detailsproducts_Model.fields.selectedshop == null)
+                    {
+                        navigator.notification.alert("กรุณาระบุห้างสรรพสินค้า");
+                    }else{
+                        
+                                 $.ajax({
+                       type: "POST",
+                       url: "https://greenapi.odooportal.com/api/v1/product_by_barcode",
+                       contentType: "application/json",
+                       data: JSON.stringify({ barcode: item }),
+                       success: function(result) {
+                           var product_id=result.data.id;
+                          // navigator.notification.alert(product_id);
                             
-                      $.ajax({
-                        type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/earn",
-                        contentType: "application/json",
-                		headers: {'Authorization' : header_token},
-                        data: JSON.stringify({ product_id: product_id ,
-                                               shop_id : detailsshop_detailsproducts_Model.fields.selectedshop, }),
-                        success: function(result) {                
-                            if(result.data.new_points)
-                            {
-                                //navigator.notification.alert("detailsproductsuccess");
-                                app.mobileApp.navigate('components/detailsproductsuccess/view.html');
-                            }else
-                            if(result.data.error_code=="EarnError01")
-                            {
-                                navigator.notification.alert("วันนี้คุณสะสมแต้มสินค้านี้ครบลิมิต");
-                            }else if(result.data.error_code=="EarnError02")
-                            {
-                                navigator.notification.alert("เดือนนี้คุณสะสมแต้มสินค้านี้ครบลิมิต");
-                            }else if(result.data.error_code=="EarnError03")
-                            {
-                                navigator.notification.alert("วันนี้สินค้าครบลิมิต");
-                            }else if(result.data.error_code=="EarnError04")
-                            {
-                                navigator.notification.alert("เดือนนี้สินค้าครบลิมิต");
-                            }
-                        },
-                        error: function(result) {
-                            //navigator.notification.alert(result);    
-                            navigator.notification.alert("ระบบผิดพลาด")    
-                        }
-                     });
+                              $.ajax({
+                                type: "POST",
+                                url: "https://greenapi.odooportal.com/api/v1/earn",
+                                contentType: "application/json",
+                        		headers: {'Authorization' : header_token},
+                                data: JSON.stringify({ product_id: product_id ,
+                                                       shop_id : detailsshop_detailsproducts_Model.fields.selectedshop, }),
+                                success: function(result) {                
+                                    if(result.data.new_points)
+                                    {
+                                        //navigator.notification.alert("detailsproductsuccess");
+                                        app.mobileApp.navigate('components/detailsproductsuccess/view.html');
+                                    }else
+                                    if(result.data.error_code=="EarnError01")
+                                    {
+                                        navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
+                                    }else if(result.data.error_code=="EarnError02")
+                                    {
+                                        navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
+                                    }else if(result.data.error_code=="EarnError03")
+                                    {
+                                        navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
+                                    }else if(result.data.error_code=="EarnError04")
+                                    {
+                                        navigator.notification.alert("สิทธิ์สะสมคะแนนครบแล้ว");
+                                    }
+                                },
+                                error: function(result) {
+                                    //navigator.notification.alert(result);    
+                                    navigator.notification.alert("ระบบผิดพลาด")    
+                                }
+                             });
 
                
-               },
+                       },
                 
                 	
-                error: function(result) {
-                      navigator.notification.alert(result.error_message);
+                    error: function(result) {
+                          navigator.notification.alert(result.error_message);
 
-                         },
-                 });
+                             },
+                     });
+                        
+                    }
+              
                /*
                  
                     */
