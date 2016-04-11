@@ -559,6 +559,7 @@ span{
 }
 .giftscroller{
     height: 58vh;
+    
 }
 .grid li 
 { 
@@ -663,7 +664,7 @@ span.k-widget.k-tooltip-validation {
 }
 
 
-.clock { position: absolute; top: 37vh; left: 35vw; }
+.clock { position: absolute; top: 20vh; left: 32vw; }
 .clock-container { position: relative;}
 .clock-12 { position: absolute; top: -125px; left: 0px; }
 .clock-1 { position: absolute; top: -108.25px; left: 62.5px; }
@@ -677,11 +678,13 @@ span.k-widget.k-tooltip-validation {
 .clock-9 { position: absolute; top: 0px; left: -125px; }
 .clock-10 { position: absolute; top: -62.5px; left: -108.25px; }
 .clock-11 { position: absolute; top: -108.25px; left: -62.5px;}
-.clock-text { position: absolute; top: 37vh; left: 50%; transform: translate(-50%, 0); 
+.clock-text { position: absolute; top: 20vh; left: 50%; transform: translate(-50%, 0); 
     text-align: center; 
 }
-.btn-category-cancel { margin-top: 69vh; margin-left: auto; margin-right: auto;}
-
+.btn-category-cancel { position: absolute; margin-top: 47vh; margin-left: auto; margin-right: auto;}
+.after_clock{
+    margin-top: 50vh;
+}
 
 @media(min-width:36em) {
     .divmain_reigister{
@@ -746,7 +749,7 @@ span.k-widget.k-tooltip-validation {
     .icon_keyin{
         width:5.5em;
     }
-	.clock { top: 40vh; left: 40vw; }
+	.clock { top: 20vh; left: 38vw; }
 	.clock-12 { top: -180px; left: 0px; }
 	.clock-1 { top: -155.88px; left: 90px; }
 	.clock-2 { top: -90px; left: 155.88px; }
@@ -759,8 +762,15 @@ span.k-widget.k-tooltip-validation {
 	.clock-9 { top: 0px; left: -180px; }
 	.clock-10 { top: -90px; left: -155.88px; }
 	.clock-11 { top: -155.88px; left: -90px;}
-    .clock-text { position: absolute; top: 40vh; left: 35%; transform: translate(-50%, 0);  }
+    .clock-text { position: absolute; top: 20vh; left: 35%; transform: translate(-50%, 0);  }
     .btn-category-cancel { margin-top: 69vh;}
+    .div_after_clock{
+        margin-top: -1em;
+        margin-bottom: -1em;
+    }
+    .after_clock{
+        margin-top: 52vh;
+    }
 }
 /*
 @media(min-width: 50em) {
