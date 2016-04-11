@@ -20,6 +20,163 @@
     
     <div  id="headerdetailsproducts_divmain_BIE" class="divmain_BIE clock-container" >
         <table></table>
+        <div data-role="scroller"   class="bgcolor scrollViewinfopage  giftscroller"  >
+             <div class="bgcolor" >
+                 <img class="img_scrollview_gifts" id="detailsproducts_main_img" data-bind="attr: { src: image_url }" />
+                 
+                      <div id="detailsproductsview" class="message" >
+                        <span  class="h4" data-bind="text: name"></span><br>
+                      </div>
+
+                        <table  border="0" class="message  tablelistCert">
+                            <tr>
+                                <td>
+                                      <ul id="scrollView_detailsproducts"  class="grid_Cert"></ul>
+                                </td>
+                            </tr>
+                            <!--
+                            <tr>
+                                <td class="message">
+                                    
+                                    <ul class="grid_Cert">
+                                        <li >
+                                            <img  src="store-logo/pic-logo02.png" style="width:100%;" />
+                                        </li>
+                                        <li >
+                                            <img  src="store-logo/pic-logo02.png" style="width:100%;" />
+                                        </li>
+                                        
+                                        <li >
+                                            <img  src="store-logo/pic-logo02.png" style="width:100%;" />
+                                        </li>
+                                        <li >
+                                            <img  src="store-logo/pic-logo02.png" style="width:100%;" />
+                                        </li>
+                                    </ul> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="message">
+                                    <img  src="store-logo/pic-logo02.png" style="width:3em;" />
+                                    <img  src="store-logo/pic-logo02.png" style="width:3em;" />
+                                </td>
+                            </tr>
+                            -->
+                        </table>
+                         
+                         <script id="scrollView_detailsproducts_tmp" type="text/x-kendo-template">
+                                    <img class="logoCert" src="#: image_url #"/>
+                         </script>
+                 
+                         <table class="message tdwidth"></table>
+                        <p class="h4">
+                            รายละเอียดสินค้า
+                        </p>
+                        
+                        <div id="detailsproducts_desc_to_publish" style="margin:0px 10px;">
+                            <span data-bind="text: name"></span>
+                            <span data-bind="html: desc_to_publish" ></span>
+                        </div>
+                 
+                        <p class="h4">
+                            กรุณาระบุห้างสรรพสินค้า
+                        </p>
+                 
+                         <div id = "radioselectedshop_detailsproducts">
+         
+                            <table  class="message tdwidth">
+                             <tr>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo01.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="17"
+                                                    data-bind="checked: fields.selectedshop" />
+                                             
+                                         </label>
+                                </td>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo02.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="16"
+                                                    data-bind="checked: fields.selectedshop" />
+                                         </label>
+                                 </td>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo03.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="2"
+                                                    data-bind="checked: fields.selectedshop" />
+                                         </label>
+                                 </td>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo04.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="20"
+                                                    data-bind="checked: fields.selectedshop" />
+                                          </label>
+                                 </td>
+                                 <td>
+                                          <label>
+                                              <img  src="store-logo/pic-logo05.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="18"
+                                                    data-bind="checked: fields.selectedshop" />
+                                          </label>
+                                 </td>     
+                                 </tr>
+                                
+                                <tr>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo06.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="21"
+                                                    data-bind="checked: fields.selectedshop" />
+                                             
+                                         </label>
+                                </td>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo07.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="22"
+                                                    data-bind="checked: fields.selectedshop" />
+                                         </label>
+                                 </td>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo08.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="23"
+                                                    data-bind="checked: fields.selectedshop" />
+                                         </label>
+                                 </td>
+                                 <td>
+                                         <label>
+                                             <img  src="store-logo/pic-logo09.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="24"
+                                                    data-bind="checked: fields.selectedshop" />
+                                          </label>
+                                 </td>
+                                 <td>
+                                          <label>
+                                              <img  src="store-logo/pic-logo10.png" class="logo_store" /><br>
+                                             <input type="radio" name="shop" value="25"
+                                                    data-bind="checked: fields.selectedshop" />
+                                          </label>
+                                 </td>     
+                                 </tr>
+                                
+                         </table>                             
+                    </div>
+                 
+                     <div id = "confirms_earn" >
+                         <div class="button-group">
+                             <a class="primary" data-role="button" data-bind="events: { click: confirms }">ยืนยันสิทธิ์</a>
+                         </div>
+                         <div class="button-group">
+                             <a class="primary2" data-role="backbutton" data-transition="slide:left reverse" >ยกเลิก</a>
+                         </div>
+                	</div>
+    	     </div>
+        </div>
+        
     </div>
     
     <div id="headerdetailsproducts_BIElogodiv" class="BIElogodiv">

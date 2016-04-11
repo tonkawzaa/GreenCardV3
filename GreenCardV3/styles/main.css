@@ -653,7 +653,8 @@ span{
     background-repeat: no-repeat;
 }
 .tablelistCert{
-    margin:0em 0em 0em 20vw ;
+    margin:0em 0em 0em 30vw ;
+    width:50vw;
 }
 .icon_in_from{
     margin:0.3em 0.3em ;

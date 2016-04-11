@@ -94,7 +94,7 @@ app.detailsproducts = kendo.observable({
               var detailsshop_detailsproducts_Model = kendo.observable({
         
         fields: {
-            selectedshop: 3,
+            selectedshop: 25,
         },
 
         }); 
