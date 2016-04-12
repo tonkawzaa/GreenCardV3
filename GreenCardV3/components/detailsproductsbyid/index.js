@@ -150,7 +150,7 @@ app.detailsproductsbyid = kendo.observable({
                             }
                         },
                         error: function(result) {
-                            //navigator.notification.alert(result);    
+                            navigator.notification.alert(result);    
                             navigator.notification.alert("ระบบผิดพลาด"); 
                         }
                     });
