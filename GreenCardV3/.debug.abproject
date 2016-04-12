@@ -13,11 +13,13 @@
     "org.apache.cordova.geolocation",
     "org.apache.cordova.globalization",
     "org.apache.cordova.inappbrowser",
+    "org.apache.cordova.keyboard",
     "org.apache.cordova.media",
     "org.apache.cordova.media-capture",
     "org.apache.cordova.network-information",
     "org.apache.cordova.splashscreen",
     "org.apache.cordova.statusbar",
-    "org.apache.cordova.vibration"
+    "org.apache.cordova.vibration",
+    "com.phonegap.plugins.barcodescanner@2.0.1"
   ]
 }

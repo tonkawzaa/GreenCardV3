@@ -38,7 +38,8 @@ app.detailsgifts = kendo.observable({
                             kendo.bind($("#headerdetailsgiftssumit"),result);
                         },
                         error: function(result) {
-                            navigator.notification.alert(result);    
+                            navigator.notification.alert("กรุณาลงชื่อเข้าใช้ใหม่");
+                            app.mobileApp.navigate('components/homeView/view.html'); 
                         },
                 });
          

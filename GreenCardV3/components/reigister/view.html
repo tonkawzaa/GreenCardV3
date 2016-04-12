@@ -135,7 +135,7 @@
                             </p>
                         </td>
                      <td>
-                         <input id="signupmobile" name="signupmobile" class="form_reg" data-bind="value: reigisterModel.fields.mobile"  type="tel" required validationMessage="***">
+                         <input id="signupmobile" name="signupmobile" class="form_reg" pattern="\d{10}" data-bind="value: reigisterModel.fields.mobile"  type="tel" required validationMessage="***">
                          <span class="k-invalid-msg" data-for="signupmobile"></span>
                      </td>
                    </tr>
@@ -152,7 +152,7 @@
                             </p>
                         </td>
                      <td>
-                        <input id="signupcitizenid" name="signupcitizenid"  class="form_reg" data-bind="value: reigisterModel.fields.citizenid" type="number" required validationMessage="***">
+                        <input id="signupcitizenid" name="signupcitizenid" pattern="\d{13}" class="form_reg" data-bind="value: reigisterModel.fields.citizenid" type="number" required validationMessage="***">
                          <span class="k-invalid-msg" data-for="signupcitizenid"></span>
                      </td>
                    </tr>
@@ -164,10 +164,10 @@
                </table>
 
             </form>
-                      <div class="button-group bottom_position">
+               <div class="button-group bottom_position">
                 <a class="primary" data-role="button" data-bind="events: { click: reigisterModel.submit }" >ถัดไป</a>
                 <a  class="primary2"data-role="button" data-bind="events: { click: reigisterModel.toggleView }"  >ย้อนกลับ</a>
-                     </div>
+               </div>
          </div>
        </div>
         

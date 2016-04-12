@@ -22,7 +22,7 @@
             
             app.mobileApp = new kendo.mobile.Application(document.body, {
                 skin: 'flat',
-                
+                //transition: "fade",
                 initial: page_start,
             });
         });

@@ -1,4 +1,4 @@
-<div data-role="view" data-title="" data-layout="main" data-model="app.homeView" data-show="app.homeView.onShow" data-after-show="app.homeView.afterShow">
+<div data-role="view" data-title="" data-layout="main" data-model="app.homeView"   data-show="app.homeView.onShow" data-after-show="app.homeView.afterShow">
     
     <div id="main_home" class="div100 bgcolor">
         <table></table>
@@ -36,13 +36,13 @@
              </table>
              </form>
              <div class="button-group logoline  " style="width:80%;"   >
-                <a  class="primary" data-role="button" data-bind="events: { click: homeViewModel.submit }">เข้าสู่ระบบ</a>
+                <a  class="primary" data-role="button" data-transition="slide" data-bind="events: { click: homeViewModel.submit }">เข้าสู่ระบบ</a>
              </div>
         </div>
         <table class=" from_center " >
                  <tr>
                      <td>
-                         <span data-bind="events: { click: homeViewModel.gotermofuse }">
+                         <span  data-bind="events: { click: homeViewModel.gotermofuse }" >
                              ลงทะเบียนใช้งานที่นี่
                          </span>
                      </td>

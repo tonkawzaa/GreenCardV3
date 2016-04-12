@@ -88,7 +88,9 @@ app.detailsproducts = kendo.observable({
                             kendo.bind($("#headerdetailsproducts"),result);
                         },
                         error: function(result) {
-                            navigator.notification.alert(result);    
+                            //navigator.notification.alert(result);    
+                            navigator.notification.alert("กรุณาลงชื่อเข้าใช้ใหม่");
+                            app.mobileApp.navigate('components/homeView/view.html');
                         }
                 });
               var detailsshop_detailsproducts_Model = kendo.observable({
