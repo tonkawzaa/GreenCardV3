@@ -48,7 +48,7 @@ app.reigister = kendo.observable({
                         //navigator.notification.alert(validator.validate());
                          $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/signup",
+                        url: "https://greencardapi.deqp.go.th/api/v1/signup",
                         contentType: "application/json",
                         data: JSON.stringify({ login: reigisterModel.fields.email,
                                               firstname: reigisterModel.fields.firstname,

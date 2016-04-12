@@ -8,7 +8,7 @@ app.detailsproducts = kendo.observable({
         
         	$.ajax({
                type: "POST",
-               url: "https://greenapi.odooportal.com/api/v1/product_by_barcode",
+               url: "https://greencardapi.deqp.go.th/api/v1/product_by_barcode",
                contentType: "application/json",
                data: JSON.stringify({ barcode: item }),
                success: function(result) {
@@ -80,7 +80,7 @@ app.detailsproducts = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: "https://greencardapi.deqp.go.th/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                
@@ -115,7 +115,7 @@ app.detailsproducts = kendo.observable({
                         
                                  $.ajax({
                        type: "POST",
-                       url: "https://greenapi.odooportal.com/api/v1/product_by_barcode",
+                       url: "https://greencardapi.deqp.go.th/api/v1/product_by_barcode",
                        contentType: "application/json",
                        data: JSON.stringify({ barcode: item }),
                        success: function(result) {

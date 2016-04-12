@@ -25,7 +25,7 @@ app.detailsgifts = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: "https://greencardapi.deqp.go.th/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                
@@ -60,7 +60,7 @@ app.detailsgifts = kendo.observable({
                 
            		 $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/burn",
+                        url: "https://greencardapi.deqp.go.th/api/v1/burn",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                 		data: JSON.stringify({ gift_id: item }),
@@ -124,7 +124,7 @@ app.detailsgifts = kendo.observable({
           
             $.ajax({
                   type: "POST",
-                  url: "https://greenapi.odooportal.com/api/v1/gift_by_id",
+                  url: "https://greencardapi.deqp.go.th/api/v1/gift_by_id",
                   data: JSON.stringify({ id: item }),
                   contentType: "application/json; charset=utf-8",
                   dataType: "json",

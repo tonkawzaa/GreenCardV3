@@ -8,9 +8,9 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
-                             data: JSON.stringify({ category_name: "Green 1" }),
+                             data: JSON.stringify({ category_name: "อาหารและเครื่องดื่ม" }),
                             dataType: "json",
                             success: function (result) {
                                 //navigator.notification.alert(result.data);
@@ -40,7 +40,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "บริการสุขภาพ" }),
                             dataType: "json",
@@ -72,7 +72,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "เครื่องนุ่งห่ม" }),
                             dataType: "json",
@@ -104,7 +104,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "อิเล็กทรอนิกส์" }),
                             dataType: "json",
@@ -136,7 +136,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "เครื่องใช้ไฟฟ้าและแสงสว่าง" }),
                             dataType: "json",
@@ -168,7 +168,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "เครื่องใช้สำนักงาน" }),
                             dataType: "json",
@@ -200,7 +200,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "เครื่องใช้ในบ้านเรือน" }),
                             dataType: "json",
@@ -232,7 +232,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "วัสดุก่อสร้าง" }),
                             dataType: "json",
@@ -264,7 +264,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "โรงแรม" }),
                             dataType: "json",
@@ -296,7 +296,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "การเดินทาง" }),
                             dataType: "json",
@@ -329,7 +329,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "สถานที่ท่องเที่ยว" }),
                             dataType: "json",
@@ -361,7 +361,7 @@ app.earnbyid = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/products_by_category",
+                            url: "https://greencardapi.deqp.go.th/api/v1/products_by_category",
                             contentType: "application/json; charset=utf-8",
                              data: JSON.stringify({ category_name: "สถานีบริการ" }),
                             dataType: "json",
@@ -398,7 +398,7 @@ app.earnbyid = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: "https://greencardapi.deqp.go.th/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                

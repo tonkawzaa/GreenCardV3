@@ -13,7 +13,7 @@ app.information = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: "https://greencardapi.deqp.go.th/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                
@@ -29,7 +29,7 @@ app.information = kendo.observable({
                 });
                 $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/cert_types",
+                            url: "https://greencardapi.deqp.go.th/api/v1/cert_types",
                             contentType: "application/json; charset=utf-8",
                             success: function(result) {
                             

@@ -24,7 +24,7 @@ app.homeView = kendo.observable({
             if (validator.validate()) {
                  $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/login",
+                        url: "https://greencardapi.deqp.go.th/api/v1/login",
                         contentType: "application/json",
                         data: JSON.stringify({ login: homeViewModel.fields.email,password: homeViewModel.fields.password }),
                         success: function(result) {
