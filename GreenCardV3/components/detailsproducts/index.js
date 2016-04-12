@@ -27,8 +27,8 @@ app.detailsproducts = kendo.observable({
                                 });
                                 
                             }else{
-                                //navigator.notification.alert("ไม่พบสินค้าในฐานข้อมูล");
-                                navigator.notification.alert(result);
+                                navigator.notification.alert("ไม่พบสินค้าในฐานข้อมูล");
+                                //navigator.notification.alert(result);
                                 app.mobileApp.navigate('components/earn/view.html');
                             }
                
