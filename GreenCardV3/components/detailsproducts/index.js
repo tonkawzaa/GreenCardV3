@@ -40,6 +40,7 @@ app.detailsproducts = kendo.observable({
                 error: function(result) {
                      //navigator.notification.alert(result.error_message);
                     navigator.notification.alert("ระบบผิดพลาด");
+                    app.mobileApp.navigate('components/earn/view.html');
 
                          },
              });
@@ -160,7 +161,7 @@ app.detailsproducts = kendo.observable({
                 
                 	
                     error: function(result) {
-                          navigator.notification.alert(result.error_message);
+                          navigator.notification.alert(result);
 
                              },
                      });
