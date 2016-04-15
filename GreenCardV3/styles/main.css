@@ -750,6 +750,94 @@ span.k-widget.k-tooltip-validation {
     margin-top: 50vh;
 }
 
+@media(min-width:18em) {
+    .divmain_reigister{
+        margin:6em 1em ;
+        height:35em;        
+    }
+    .divmain_welcome{
+        margin:2em 0em 0em 0em;
+        height:90vh;
+    }
+    .divmain_BIE{
+        margin:3.5em 1em 3em 1em;
+        height:79vh;
+    }
+    .logo_reigister{
+        left: 32%;
+    }
+    .logo_welcome{
+        left: 32%;
+    }
+    .welcome{
+    margin-top: 4em;
+    }
+    .div_dot{
+    margin:6em auto 1em auto;      
+    }
+    .scrollViewinfopage{
+        margin:8.5em 1em 0em 1em;
+    }
+    .img_scrollview_gifts{
+        height:20vh;
+    }
+    .logo_detailsgift{
+        height:4em;
+    }
+
+    .h1{
+        font-size: 2em;
+    }
+    .h2{
+        font-size: 1.7em;   
+    }
+    .h3{
+        font-size: 2em;  
+    }
+    .h4{
+        
+        font-size: 1.3em;  
+    }
+    .h5{
+        font-size: 1.1em; 
+    }
+    .datarootbottom{
+        margin:7.5em auto 0em auto;
+    }
+    .icon_keyin{
+        width:4.5em;
+    }
+    .grid li 
+    { 
+     height: 6em; 
+     }
+	.clock { top: 20vh; left: 32vw; }
+	.clock-12 {  top: -125px; left: 0px; }
+	.clock-1 {  top: -108.25px; left: 62.5px; }
+	.clock-2 {  top: -62.5px; left: 108.25px; }
+	.clock-3 {  top: 0px; left: 125px; }
+	.clock-4 {  top: 62.5px; left: 108.25px; }
+	.clock-5 {  top: 108.25px; left: 62.5px; }
+	.clock-6 {  top: 125px; left: 0px; }
+	.clock-7 {  top: 108.25px; left: -62.5px; }
+	.clock-8 {  top: 62.5px; left: -108.25px; }
+	.clock-9 { top: 0px; left: -125px; }
+	.clock-10 {  top: -62.5px; left: -108.25px; }
+	.clock-11 {  top: -108.25px; left: -62.5px;}
+	.clock-text {  top: 20vh; left: 50%; }
+	.clock-text_1line{
+     	top: 22vh; 
+	left: 50%; 
+	}
+	.clock-text_1linev2{
+        top: 22vh; left: 50%;
+	}
+	.btn-category-cancel {  margin-top: 47vh;}
+    .after_clock{
+        margin-top: 50vh;
+    }
+}
+
 @media(min-width:36em) {
     .divmain_reigister{
         margin:8em 1em ;
