@@ -355,7 +355,7 @@
 }
 .h1{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .h2{
     font-weight: bold;
@@ -442,8 +442,8 @@ span{
     background-color: #f1f1f1;
 }
 .divmain_reigister{
-    margin:6em 1em ;
-    height:35em;
+    margin:4em 1em ;
+    height:30em;
     width: auto;
     background-color: #f1f1f1;
 }
@@ -454,7 +454,7 @@ span{
     background-color: #f1f1f1;
 }
 .divmain_BIE{
-    margin:3.5em 1em 3em 1em;
+    margin:2.5em 1em 3em 1em;
     height:79vh;
     width: auto;
     background-color: #f1f1f1;
@@ -467,10 +467,10 @@ span{
     height:77vh;
 }
 .scrollViewinfopage{
-    margin:8.5em 1em 0em 1em;
+    margin:8em 1em 0em 1em;
 }
 .logo{
-    margin:2em auto 0em auto;
+    margin:1em auto 0em auto;
     display:block;
     width: 44%; 
     height: auto;
@@ -496,7 +496,7 @@ span{
 .logo_reigister{
     margin:1em auto 0em auto;
     display:block;
-    width: 37%; 
+    width: 34%; 
     height: auto;
     position: absolute; 
     top: 0%; 
@@ -517,7 +517,7 @@ span{
 }
 .BIElogodiv{
     position: absolute; 
-    top: 7%; 
+    top: 9%; 
     left: 0%;
     margin:0em 1em 0em 1em;
 }
@@ -556,7 +556,7 @@ span{
     height:20vh;
 }
 .div_dot{
-    margin:6em auto 1em auto;
+    margin:5em auto 1em auto;
     display:block;
     width: 60px;
 }
@@ -591,7 +591,7 @@ span{
     height: 30vh;
 }
 .giftscroller{
-    height: 58vh;
+    height: 50vh;
     
 }
 .grid li 
@@ -612,7 +612,7 @@ span{
     display:block;
     
      float: left;
-     width: 20vw; 
+     width: 30vw; 
       
     /*
     border-right: 1em dotted #000;
@@ -625,7 +625,7 @@ span{
 }
 .from_table_signin{
     width: 75%;
-    margin:4em auto 0em auto;
+    margin:1em auto 0em auto;
     display:block;
 }
 .from_table_signin_child{
@@ -666,8 +666,8 @@ span{
     background-repeat: no-repeat;
 }
 .tablelistCert{
-    margin:0em 0em 0em 30vw ;
-    width:50vw;
+    margin:0em 0em 0em 15vw ;
+    width:65vw;
 }
 .icon_in_from{
     margin:0.3em 0.3em ;
@@ -686,18 +686,23 @@ span.k-widget.k-tooltip-validation {
                     color: red;
                 }
 .datarootbottom{
-    margin:7.5em auto 0em auto;
+    margin:7em auto 0em auto;
     display:block;
     /*position: absolute; 
     top: 97vh; 
     left: 20%; 
     width:80%;*/
 }
+.scrollertermsofuse{
+    height: 60vh;
+    width:90%;
+    margin:0px 15px;
+}
 .thankyou{
     margin-top: 4em;
 }
 .welcome{
-    margin-top: 4em;
+    margin-top: 2.5em;
 }
 .red{
     color:red;
@@ -716,44 +721,174 @@ span.k-widget.k-tooltip-validation {
 }
 .icon_keyin{
     height: auto; 
-    width:4.5em;
+    width:3.5em;
 }
 
 
-.clock { position: absolute; top: 20vh; left: 32vw; }
+.clock { position: absolute; top: 22vh; left: 32vw; }
 .clock-container { position: relative;}
-.clock-12 { position: absolute; top: -125px; left: 0px; }
-.clock-1 { position: absolute; top: -108.25px; left: 62.5px; }
-.clock-2 { position: absolute; top: -62.5px; left: 108.25px; }
-.clock-3 { position: absolute; top: 0px; left: 125px; }
-.clock-4 { position: absolute; top: 62.5px; left: 108.25px; }
-.clock-5 { position: absolute; top: 108.25px; left: 62.5px; }
-.clock-6 { position: absolute; top: 125px; left: 0px; }
-.clock-7 { position: absolute; top: 108.25px; left: -62.5px; }
-.clock-8 { position: absolute; top: 62.5px; left: -108.25px; }
-.clock-9 { position: absolute; top: 0px; left: -125px; }
-.clock-10 { position: absolute; top: -62.5px; left: -108.25px; }
-.clock-11 { position: absolute; top: -108.25px; left: -62.5px;}
+.clock-12 { position: absolute; top: -100px; left: 0px; }
+.clock-1 { position: absolute; top: -86.6px; left: 50px; }
+.clock-2 { position: absolute; top: -50px; left: 86.6px; }
+.clock-3 { position: absolute; top: 0px; left: 100px; }
+.clock-4 { position: absolute; top: 50px; left: 86.6px; }
+.clock-5 { position: absolute; top: 86.6px; left: 50px; }
+.clock-6 { position: absolute; top: 100px; left: 0px; }
+.clock-7 { position: absolute; top: 86.6px; left: -50px; }
+.clock-8 { position: absolute; top: 50px; left: -86.6px; }
+.clock-9 { position: absolute; top: 0px; left: -100px; }
+.clock-10 { position: absolute; top: -50px; left: -86.6px; }
+.clock-11 { position: absolute; top: -86.6px; left: -50px;}
 .clock-text { position: absolute; top: 20vh; left: 50%; transform: translate(-50%, 0); 
     text-align: center; 
 }
 .clock-text_1line{
-    position: absolute; top: 22vh; left: 50%; transform: translate(-50%, 0); 
+    position: absolute; top: 23vh; left: 50%; transform: translate(-50%, 0); 
     text-align: center; 
 }
 .clock-text_1linev2{
     position: absolute; top: 22vh; left: 50%; transform: translate(-50%, 0); 
     text-align: center; 
 }
-.btn-category-cancel { position: absolute; margin-top: 47vh; margin-left: auto; margin-right: auto;}
 .after_clock{
-    margin-top: 50vh;
+    margin-top: 60vh;
+}
+
+@media(min-width:22em) {
+    .logo{
+        margin:2em auto 0em auto;
+        width: 44%; 
+    }
+    .from_table_signin{
+        margin:4em auto 0em auto;
+    }
+    .from_table_signin_child{
+        margin:1em auto 0em auto;
+    }
+    .scrollertermsofuse{
+        height: 68vh;
+    }
+    .divmain_reigister{
+        margin:6em 1em ;
+        height:35em;        
+    }
+    .divmain_welcome{
+        margin:2em 0em 0em 0em;
+        height:90vh;
+    }
+    .divmain_BIE{
+        margin:3.5em 1em 3em 1em;
+        height:79vh;
+    }
+    .BIElogodiv{
+      top: 7%; 
+    }
+    .logo_reigister{
+        left: 32%;
+    }
+    .logo_welcome{
+        left: 32%;
+    }
+    .giftscroller{
+        height: 58vh;
+    }
+    .welcome{
+    margin-top: 4em;
+    }
+    .div_dot{
+    margin:6em auto 1em auto;      
+    }
+    .scrollViewinfopage{
+        margin:8.5em 1em 0em 1em;
+    }
+    .img_scrollview_gifts{
+        height:20vh;
+    }
+    .logo_detailsgift{
+        height:4em;
+    }
+
+    .h1{
+        font-size: 2em;
+    }
+    .h2{
+        font-size: 1.7em;   
+    }
+    .h3{
+        font-size: 2em;  
+    }
+    .h4{
+        
+        font-size: 1.3em;  
+    }
+    .h5{
+        font-size: 1.1em; 
+    }
+    .datarootbottom{
+        margin:7.5em auto 0em auto;
+    }
+    .icon_keyin{
+        width:4.5em;
+    }
+    .grid li 
+    { 
+     height: 6em; 
+     }
+    .grid_Cert li 
+    { 
+     width: 20vw; 
+     }
+    .tablelistCert{
+        margin:0em 0em 0em 30vw ;
+        width:50vw;
+    }
+	.clock { top: 20vh; left: 32vw; }
+	.clock-12 {  top: -125px; left: 0px; }
+	.clock-1 {  top: -108.25px; left: 62.5px; }
+	.clock-2 {  top: -62.5px; left: 108.25px; }
+	.clock-3 {  top: 0px; left: 125px; }
+	.clock-4 {  top: 62.5px; left: 108.25px; }
+	.clock-5 {  top: 108.25px; left: 62.5px; }
+	.clock-6 {  top: 125px; left: 0px; }
+	.clock-7 {  top: 108.25px; left: -62.5px; }
+	.clock-8 {  top: 62.5px; left: -108.25px; }
+	.clock-9 { top: 0px; left: -125px; }
+	.clock-10 {  top: -62.5px; left: -108.25px; }
+	.clock-11 {  top: -108.25px; left: -62.5px;}
+	.clock-text {  top: 20vh; left: 50%; }
+	.clock-text_1line{
+     	top: 22vh; 
+	left: 50%; 
+	}
+	.clock-text_1linev2{
+        top: 22vh; left: 50%;
+	}
+	.btn-category-cancel {  margin-top: 47vh;}
+    .after_clock{
+        margin-top: 50vh;
+    }
 }
 
 @media(min-width:36em) {
+    .logo{
+        margin:2em auto 0em auto;
+        width: 44%; 
+    }
+    .from_table_signin{
+        margin:4em auto 0em auto;
+    }
+    .from_table_signin_child{
+        margin:1em auto 0em auto;
+    }
+    .scrollertermsofuse{
+        height: 68vh;
+    }
     .divmain_reigister{
         margin:8em 1em ;
         height:45em;        
+    }
+    .giftscroller{
+        height: 58vh;
     }
     .divmain_welcome{
         margin:4em 0em 0em 0em;
@@ -763,6 +898,9 @@ span.k-widget.k-tooltip-validation {
         margin:7em 1em 3em 1em;
         height:77vh;
 
+    }
+    .BIElogodiv{
+      top: 7%; 
     }
     .logo_reigister{
         left: 30%;
@@ -817,6 +955,14 @@ span.k-widget.k-tooltip-validation {
     { 
      height: 10em; 
      }
+    .grid_Cert li 
+    { 
+     width: 20vw; 
+     }
+    .tablelistCert{
+        margin:0em 0em 0em 30vw ;
+        width:50vw;
+    }
 	.clock { top: 20vh; left: 38vw; }
 	.clock-12 { top: -180px; left: 0px; }
 	.clock-1 { top: -155.88px; left: 90px; }
