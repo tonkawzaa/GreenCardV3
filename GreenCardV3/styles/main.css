@@ -988,7 +988,6 @@ span.k-widget.k-tooltip-validation {
         margin-top: 52vh;
     }
 }
-
 @media(min-width: 47em) {
     .logo{
         margin:2em auto 0em auto;
@@ -1004,11 +1003,11 @@ span.k-widget.k-tooltip-validation {
         height: 68vh;
     }
     .divmain_reigister{
-        margin:8em 1em ;
-        height:45em;        
+        margin:10em 1em 5em 1em ;
+        height:52em;        
     }
     .giftscroller{
-        height: 58vh;
+        height: 50vh;
     }
     .divmain_welcome{
         margin:4em 0em 0em 0em;
@@ -1023,19 +1022,19 @@ span.k-widget.k-tooltip-validation {
       top: 7%; 
     }
     .logo_reigister{
-        left: 30%;
+        left: 32%;
     }
     .logo_welcome{
         left: 33%;
     }
     .welcome{
-    margin-top: 5em;
+    margin-top: 6em;
     }
     .div_dot{
     margin:8em auto 0px auto;        
     }
     .scrollViewinfopage{
-        margin:9.5em 1em 0em 1em;
+        margin:15em 1em 0em 1em;
     }
     .img_scrollview_gifts{
         width:100%;
@@ -1069,7 +1068,7 @@ span.k-widget.k-tooltip-validation {
         font-size: 1.2em; 
     }
     .icon_keyin{
-        width:5.5em;
+        width:7em;
     }
     .grid li 
     { 
@@ -1082,6 +1081,9 @@ span.k-widget.k-tooltip-validation {
     .tablelistCert{
         margin:0em 0em 0em 30vw ;
         width:50vw;
+    }
+    .earn_thank{
+        margin:25vh auto 0em auto;
     }
 	.clock { top: 20vh; left: 38vw; }
 	.clock-12 { top: -180px; left: 0px; }
@@ -1096,9 +1098,9 @@ span.k-widget.k-tooltip-validation {
 	.clock-9 { top: 0px; left: -180px; }
 	.clock-10 { top: -90px; left: -155.88px; }
 	.clock-11 { top: -155.88px; left: -90px;}
-    .clock-text {  top: 20vh; left: 37%;   }
-    .clock-text_1line{ top: 22vh; left: 37%;  }
-    .clock-text_1linev2{left: 45%; }
+    .clock-text {  top: 20vh; left: 50%;   }
+    .clock-text_1line{ top: 22vh; left: 50%;  }
+    .clock-text_1linev2{left: 50%; }
     .btn-category-cancel { margin-top: 69vh;}
     .div_after_clock{
         margin-top: -1em;
@@ -1108,4 +1110,3 @@ span.k-widget.k-tooltip-validation {
         margin-top: 52vh;
     }
 }
-
