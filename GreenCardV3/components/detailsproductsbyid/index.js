@@ -35,7 +35,7 @@ app.detailsproductsbyid = kendo.observable({
                           */
                           
                       }else{
-                          navigator.notification.alert("ไม่พบสินค้า");
+                          navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                           app.mobileApp.navigate('components/earn/view.html');
                       }
 
@@ -43,7 +43,7 @@ app.detailsproductsbyid = kendo.observable({
                 },
 
                 error: function(result) {
-                      navigator.notification.alert("ไม่พบสินค้า");
+                      navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                       app.mobileApp.navigate('components/earn/view.html');
                          },
              });
