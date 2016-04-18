@@ -988,25 +988,124 @@ span.k-widget.k-tooltip-validation {
         margin-top: 52vh;
     }
 }
-/*
-@media(min-width: 50em) {
-    .h1{
-    font-size:4em;
+
+@media(min-width: 47em) {
+    .logo{
+        margin:2em auto 0em auto;
+        width: 44%; 
     }
-			.clock { top: 300px; left: 48vw; }
-			.clock-12 { top: -300px; left: 0px; }
-			.clock-1 { top: -259.81px; left: 150px; }
-			.clock-2 { top: -150px; left: 259.81px; }
-			.clock-3 { top: 0px; left: 300px; }
-			.clock-4 { top: 150px; left: 259.81px; }
-			.clock-5 { top: 259.81px; left: 150px; }
-			.clock-6 { top: 300px; left: 0px; }
-			.clock-7 { top: 259.81px; left: -150px; }
-			.clock-8 { top: 150px; left: -259.81px; }
-			.clock-9 { top: 0px; left: -300px; }
-			.clock-10 { top: -150px; left: -259.81px; }
-			.clock-11 { top: -259.81px; left: -150px;}
-            .clock-text { position: absolute; top: 300px; left: 30%; transform: translate(-50%, 0); font-size: 30px; }
-            .btn-category-cancel { margin-top: 720px;}
+    .from_table_signin{
+        margin:4em auto 0em auto;
+    }
+    .from_table_signin_child{
+        margin:1em auto 0em auto;
+    }
+    .scrollertermsofuse{
+        height: 68vh;
+    }
+    .divmain_reigister{
+        margin:8em 1em ;
+        height:45em;        
+    }
+    .giftscroller{
+        height: 58vh;
+    }
+    .divmain_welcome{
+        margin:4em 0em 0em 0em;
+        height:85vh;
+    }
+    .divmain_BIE{
+        margin:7em 1em 3em 1em;
+        height:77vh;
+
+    }
+    .BIElogodiv{
+      top: 7%; 
+    }
+    .logo_reigister{
+        left: 30%;
+    }
+    .logo_welcome{
+        left: 33%;
+    }
+    .welcome{
+    margin-top: 5em;
+    }
+    .div_dot{
+    margin:8em auto 0px auto;        
+    }
+    .scrollViewinfopage{
+        margin:9.5em 1em 0em 1em;
+    }
+    .img_scrollview_gifts{
+        width:100%;
+        height:30vh;
+    }
+    .logo_detailsgift{
+        height:5em;
+    }
+
+    .h1{
+        font-size:3.5em;
+    }
+    .h2{
+        font-weight: bold;
+        font-size: 2em;  
+    }
+    .h3{
+        font-size: 2em;  
+    }
+    .h4{
+        
+        font-size: 1.7em;  
+    }
+    .h5{
+        font-size: 1.4em; 
+    }
+    .datarootbottom{
+        margin:13.5em auto 0em auto;
+    }
+     p{
+        font-size: 1.2em; 
+    }
+    .icon_keyin{
+        width:5.5em;
+    }
+    .grid li 
+    { 
+     height: 10em; 
+     }
+    .grid_Cert li 
+    { 
+     width: 20vw; 
+     }
+    .tablelistCert{
+        margin:0em 0em 0em 30vw ;
+        width:50vw;
+    }
+	.clock { top: 20vh; left: 38vw; }
+	.clock-12 { top: -180px; left: 0px; }
+	.clock-1 { top: -155.88px; left: 90px; }
+	.clock-2 { top: -90px; left: 155.88px; }
+	.clock-3 { top: 0px; left: 180px; }
+	.clock-4 { top: 90px; left: 155.88px; }
+	.clock-5 { top: 155.88px; left: 90px; }
+	.clock-6 { top: 180px; left: 0px; }
+	.clock-7 { top: 155.88px; left: -90px; }
+	.clock-8 { top: 90px; left: -155.88px; }
+	.clock-9 { top: 0px; left: -180px; }
+	.clock-10 { top: -90px; left: -155.88px; }
+	.clock-11 { top: -155.88px; left: -90px;}
+    .clock-text {  top: 20vh; left: 37%;   }
+    .clock-text_1line{ top: 22vh; left: 37%;  }
+    .clock-text_1linev2{left: 45%; }
+    .btn-category-cancel { margin-top: 69vh;}
+    .div_after_clock{
+        margin-top: -1em;
+        margin-bottom: -1em;
+    }
+    .after_clock{
+        margin-top: 52vh;
+    }
 }
-*/
+
