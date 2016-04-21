@@ -390,6 +390,7 @@ input{
     background-color : #f1f1f1;
 }
 
+
 span{
     font-family: 'sukhumvitreg', arial, sans-serif;
    font-weight: normal;
@@ -401,6 +402,13 @@ span{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #18a684;
+}
+.background_image_main_bottom{
+    
+    background-image: url('../images/pic-bg-icon.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #D8E9F8;
 }
 
 .form_reg {
@@ -435,6 +443,11 @@ span{
     width: 100%; 
     
 }
+.div95{
+    height:95vh;
+    width: 100%; 
+    
+}
 .divmain{
     margin:3em 1em ;
     height:90vh;
@@ -461,6 +474,9 @@ span{
 }
 .bgcolor{
     background-color: #f1f1f1;
+}
+.bgcolorhome{
+    background-color: #D8E9F8;
 }
 .scrollViewinfo{
     
@@ -686,9 +702,11 @@ span.k-widget.k-tooltip-validation {
                     color: red;
                 }
 .datarootbottom{
-    margin:7em auto 0em auto;
+    margin:2em auto 0em auto;
     display:block;
-    /*position: absolute; 
+    color:#fff;
+    /*
+    position: absolute; 
     top: 97vh; 
     left: 20%; 
     width:80%;*/
@@ -757,6 +775,21 @@ span.k-widget.k-tooltip-validation {
     margin-top: -0.1em;
     margin-bottom: -0.1em;
 }
+
+
+@media(min-height: 29em){
+    .datarootbottom{
+        margin:5.8em auto 0em auto;
+       
+    }
+}
+@media(min-height: 33em){
+    .datarootbottom{
+        margin:8em auto 0em auto;
+        
+    }
+}
+
 
 @media(min-width:22em) {
     .logo{
@@ -829,7 +862,8 @@ span.k-widget.k-tooltip-validation {
         font-size: 1.1em; 
     }
     .datarootbottom{
-        margin:7.5em auto 0em auto;
+        margin:8.5em auto 0em auto;
+        
     }
     .icon_keyin{
         width:4.5em;
@@ -870,6 +904,12 @@ span.k-widget.k-tooltip-validation {
 	.btn-category-cancel {  margin-top: 47vh;}
     .after_clock{
         margin-top: 50vh;
+    }
+}
+@media(min-width:22em) and (min-height: 42em){
+    .datarootbottom{
+        margin:12em auto 0em auto;
+       
     }
 }
 
@@ -947,7 +987,7 @@ span.k-widget.k-tooltip-validation {
         font-size: 1.4em; 
     }
     .datarootbottom{
-        margin:13.5em auto 0em auto;
+        margin:14em auto 0em auto;
     }
      p{
         font-size: 1.2em; 
@@ -990,6 +1030,11 @@ span.k-widget.k-tooltip-validation {
     }
     .after_clock{
         margin-top: 52vh;
+    }
+}
+@media(min-width:36em) and (min-height: 60em){
+    .datarootbottom{
+        margin:21em auto 0em auto;
     }
 }
 
@@ -1067,7 +1112,7 @@ span.k-widget.k-tooltip-validation {
         font-size: 1.4em; 
     }
     .datarootbottom{
-        margin:13.5em auto 0em auto;
+        margin:15em auto 0em auto;
     }
      p{
         font-size: 1.2em; 
@@ -1115,3 +1160,4 @@ span.k-widget.k-tooltip-validation {
         margin-top: 52vh;
     }
 }
+
