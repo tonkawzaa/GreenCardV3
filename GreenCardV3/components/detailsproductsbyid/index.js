@@ -1,4 +1,9 @@
 'use strict';
+//////   development /////////
+var server_location="https://greenapi.odooportal.com";
+
+//////   production /////////
+//var server_location="https://greencardapi.deqp.go.th";
 
 app.detailsproductsbyid = kendo.observable({
      onShow: function(e) {
@@ -7,7 +12,7 @@ app.detailsproductsbyid = kendo.observable({
                
         	$.ajax({
                type: "POST",
-               url: "https://greenapi.odooportal.com/api/v1/product_by_id",
+               url: server_location+"/api/v1/product_by_id",
                contentType: "application/json",
                data: JSON.stringify({ id: item }),
                success: function(result) {
@@ -86,7 +91,7 @@ app.detailsproductsbyid = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: server_location+"/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                
@@ -121,7 +126,7 @@ app.detailsproductsbyid = kendo.observable({
                     }else{
                         $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/earn",
+                        url: server_location+"/api/v1/earn",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         data: JSON.stringify({ product_id: item ,

@@ -1,4 +1,9 @@
 'use strict';
+//////   development /////////
+var server_location="https://greenapi.odooportal.com";
+
+//////   production /////////
+//var server_location="https://greencardapi.deqp.go.th";
 
 app.detailsproducts = kendo.observable({
     
@@ -8,7 +13,7 @@ app.detailsproducts = kendo.observable({
         
         	$.ajax({
                type: "POST",
-               url: "https://greenapi.odooportal.com/api/v1/product_by_barcode",
+               url: server_location+"/api/v1/product_by_barcode",
                contentType: "application/json",
                data: JSON.stringify({ barcode: item }),
                success: function(result) {
@@ -80,7 +85,7 @@ app.detailsproducts = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: server_location+"/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                
@@ -115,7 +120,7 @@ app.detailsproducts = kendo.observable({
                         
                                  $.ajax({
                        type: "POST",
-                       url: "https://greenapi.odooportal.com/api/v1/product_by_barcode",
+                       url: server_location+"/api/v1/product_by_barcode",
                        contentType: "application/json",
                        data: JSON.stringify({ barcode: item }),
                        success: function(result) {
@@ -124,7 +129,7 @@ app.detailsproducts = kendo.observable({
                             
                               $.ajax({
                                 type: "POST",
-                                url: "https://greenapi.odooportal.com/api/v1/earn",
+                                url: server_location+"/api/v1/earn",
                                 contentType: "application/json",
                         		headers: {'Authorization' : header_token},
                                 data: JSON.stringify({ product_id: product_id ,

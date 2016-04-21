@@ -1,4 +1,9 @@
 'use strict';
+//////   development /////////
+var server_location="https://greenapi.odooportal.com";
+
+//////   production /////////
+//var server_location="https://greencardapi.deqp.go.th";
 
 app.reigister = kendo.observable({
     onShow: function() {
@@ -48,7 +53,7 @@ app.reigister = kendo.observable({
                         //navigator.notification.alert(validator.validate());
                          $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/signup",
+                        url: server_location+"/api/v1/signup",
                         contentType: "application/json",
                         data: JSON.stringify({ login: reigisterModel.fields.email,
                                               firstname: reigisterModel.fields.firstname,

@@ -1,4 +1,9 @@
 'use strict';
+//////   development /////////
+var server_location="https://greenapi.odooportal.com";
+
+//////   production /////////
+//var server_location="https://greencardapi.deqp.go.th";
 
 app.burnPoint = kendo.observable({
     
@@ -8,7 +13,7 @@ app.burnPoint = kendo.observable({
                 read: function(options) {
                         $.ajax({
                             type: "GET",
-                            url: "https://greenapi.odooportal.com/api/v1/event_gifts",
+                            url: server_location+"/api/v1/event_gifts",
                             contentType: "application/json; charset=utf-8",
                             dataType: "json",
                             success: function (result) {
@@ -39,7 +44,7 @@ app.burnPoint = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: server_location+"/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                
@@ -62,7 +67,7 @@ app.burnPoint = kendo.observable({
                 
             $.ajax({
                             type: "POST",
-                            url: "https://greenapi.odooportal.com/api/v1/gifts",
+                            url: server_location+"/api/v1/gifts",
                             contentType: "application/json; charset=utf-8",
                             dataType: "json",
                             success: function (result) {
