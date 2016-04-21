@@ -16,7 +16,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -48,7 +49,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -80,7 +82,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -112,7 +115,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -144,7 +148,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -176,7 +181,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -208,7 +214,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -240,7 +247,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -272,7 +280,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -301,10 +310,11 @@ app.earnbyid = kendo.observable({
                              data: JSON.stringify({ category_name: "การเดินทาง" }),
                             dataType: "json",
                                 success: function (result) {
-                                //navigator.notification.alert(result.data);
+                                
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -337,7 +347,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
@@ -369,7 +380,8 @@ app.earnbyid = kendo.observable({
                                 //navigator.notification.alert(result.data);
                                 if(result.data.error_code == "ProdsByCatError01")
                                 {
-                                    navigator.notification.alert("ไม่พบชนิดของสินค้า");
+                                    //navigator.notification.alert(result);
+                                    navigator.notification.alert("กรุณาลองใหม่อีกครั้ง");
                                     app.mobileApp.navigate('components/earn/view.html');
                                 }else{
                                     options.success(result.data);
