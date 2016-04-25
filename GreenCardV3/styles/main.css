@@ -221,6 +221,7 @@
     background-size: 100% 100%;
     border-color: transparent;
     font-family: 'sukhumvitreg', arial, sans-serif;
+    vertical-align: center;
 }
 #kendoUiMobileApp.km-flat .button-group .km-button.primary2 {
  
@@ -229,6 +230,7 @@
     border-color: transparent;
     font-family: 'sukhumvitreg', arial, sans-serif;
     color: #fff;
+    vertical-align: center;
 }
 
 #kendoUiMobileApp.km-nova .button-group .km-button.primary {
@@ -478,6 +480,9 @@ span{
 .bgcolorhome{
     background-color: #D8E9F8;
 }
+.colorgreen{
+    color:#008745;
+}
 .scrollViewinfo{
     
     height:77vh;
@@ -571,6 +576,10 @@ span{
     width:100%;
     height:20vh;
 }
+.img_time{
+    width: 2em;
+    height:auto;
+}
 .div_dot{
     margin:5em auto 1em auto;
     display:block;
@@ -620,15 +629,18 @@ span{
      
     
  }
+.grid_Cert {
+list-style: none;
+margin: 0 0;
+padding: 0;
+display: block;
+text-align: center;
+}
 .grid_Cert li 
 { 
-    /*
-    margin:0px auto;
-    */
-    display:block;
-    
-     float: left;
-     width: 30vw; 
+
+    display: inline-block;
+    width: 30%; 
       
     /*
     border-right: 1em dotted #000;
@@ -681,10 +693,7 @@ span{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.tablelistCert{
-    margin:0em 0em 0em 15vw ;
-    width:65vw;
-}
+
 .icon_in_from{
     margin:0.3em 0.3em ;
     width: 2em;
@@ -776,6 +785,28 @@ span.k-widget.k-tooltip-validation {
     margin-bottom: -0.1em;
 }
 
+/* test count down */
+ul.countdown {
+list-style: none;
+margin: 0 0;
+padding: 0;
+display: block;
+text-align: center;
+}
+ul.countdown li {
+display: inline-block;
+}
+ul.countdown li span {
+font-size: 2em;
+/*font-weight: 300;*/
+line-height: 2em;
+}
+ul.countdown li.seperator {
+font-size: 2em;
+line-height: 2em;
+/*vertical-align: top;*/
+}
+/*  END COUNT DOWN */
 
 @media(min-height: 29em){
     .datarootbottom{
@@ -876,10 +907,7 @@ span.k-widget.k-tooltip-validation {
     { 
      width: 20vw; 
      }
-    .tablelistCert{
-        margin:0em 0em 0em 30vw ;
-        width:50vw;
-    }
+
 	.clock { top: 20vh; left: 32vw; }
 	.clock-12 {  top: -125px; left: 0px; }
 	.clock-1 {  top: -108.25px; left: 62.5px; }
@@ -1003,10 +1031,7 @@ span.k-widget.k-tooltip-validation {
     { 
      width: 20vw; 
      }
-    .tablelistCert{
-        margin:0em 0em 0em 30vw ;
-        width:50vw;
-    }
+
 	.clock { top: 20vh; left: 38vw; }
 	.clock-12 { top: -180px; left: 0px; }
 	.clock-1 { top: -155.88px; left: 90px; }
@@ -1128,10 +1153,7 @@ span.k-widget.k-tooltip-validation {
     { 
      width: 20vw; 
      }
-    .tablelistCert{
-        margin:0em 0em 0em 30vw ;
-        width:50vw;
-    }
+
     .earn_thank{
         margin:25vh auto 0em auto;
     }

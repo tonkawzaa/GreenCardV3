@@ -140,7 +140,7 @@
                  </span>
                  <span data-bind="text: create_date"></span><br>
                      
-                 <span class="h3" style="color:#008745" data-bind="text: gift_code"></span><br>
+                 <span class="h3 colorgreen"  data-bind="text: gift_code"></span><br>
                  
                  <span> 
                      กรุณาแสดงรหัสนี้ให้กับร้านค้าเพื่อใช้สิทธิ์ 
@@ -150,7 +150,20 @@
                  </span>
                 </div>
                 
-                <div id="close_func" class="button-group bgcolor">
+                <ul class="countdown bgcolor colorgreen">
+                    <li>
+                        <img class="img_time" src="images/icon-time.png"  />
+                    </li>
+                    <li> <span class="hours">00</span>
+                    </li>
+                    <li class="seperator">:</li>
+                    <li> <span class="minutes">00</span>
+                    </li>
+                    <li class="seperator">:</li>
+                    <li> <span class="seconds">00</span>
+                    </li>
+                </ul>
+                <div id="close_func" class="button-group bgcolor margin_1">
 		            <a class="primary" data-role="button" data-bind="events: { click: close_func }">ปิด</a>
                     <img class="right"  src="images/dtr-logo.png" style="width: 30%; height: auto;" />
 		        </div>
