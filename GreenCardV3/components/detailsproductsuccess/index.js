@@ -1,4 +1,9 @@
 'use strict';
+//////   development /////////
+//var server_location="https://greenapi.odooportal.com";
+
+//////   production /////////
+var server_location="https://greencardapi.deqp.go.th";
 
 app.detailsproductsuccess = kendo.observable({
     onShow: function() {
@@ -10,7 +15,7 @@ app.detailsproductsuccess = kendo.observable({
             //navigator.notification.alert(header_token);
             $.ajax({
                         type: "POST",
-                        url: "https://greenapi.odooportal.com/api/v1/points",
+                        url: server_location+"/api/v1/points",
                         contentType: "application/json",
                 		headers: {'Authorization' : header_token},
                         success: function(result) {                

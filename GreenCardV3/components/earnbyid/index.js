@@ -1,11 +1,11 @@
 'use strict';
 //////   development /////////
-var server_location="https://greenapi.odooportal.com";
-var categoryname1= "Green 1";
+//var server_location="https://greenapi.odooportal.com";
+//var categoryname1= "Green 1";
 
 //////   production /////////
-//var server_location="https://greencardapi.deqp.go.th";
-//var categoryname1= "อาหารและเครื่องดื่ม";
+var server_location="https://greencardapi.deqp.go.th";
+var categoryname1= "อาหารและเครื่องดื่ม";
 
 
 app.earnbyid = kendo.observable({

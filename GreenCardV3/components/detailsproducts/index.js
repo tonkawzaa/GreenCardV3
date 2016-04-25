@@ -1,9 +1,9 @@
 'use strict';
 //////   development /////////
-var server_location="https://greenapi.odooportal.com";
+//var server_location="https://greenapi.odooportal.com";
 
 //////   production /////////
-//var server_location="https://greencardapi.deqp.go.th";
+var server_location="https://greencardapi.deqp.go.th";
 
 app.detailsproducts = kendo.observable({
     
@@ -45,7 +45,7 @@ app.detailsproducts = kendo.observable({
                 error: function(result) {
                      //navigator.notification.alert(result.error_message);
                     navigator.notification.alert("ระบบผิดพลาด");
-
+                    app.mobileApp.navigate('components/earn/view.html');
                          },
              });
         /*
