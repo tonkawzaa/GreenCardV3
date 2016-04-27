@@ -44,10 +44,13 @@
   ],
   "iOSDeploymentTarget": "6.0",
   "CorePlugins": [
+    "com.phonegap.plugins.barcodescanner@2.0.1",
+    "com.telerik.plugins.wkwebview@0.6.9",
     "cordova-plugin-battery-status",
     "cordova-plugin-camera",
     "cordova-plugin-console",
     "cordova-plugin-contacts",
+    "cordova-plugin-crosswalk-webview@1.5.0",
     "cordova-plugin-device",
     "cordova-plugin-device-motion",
     "cordova-plugin-device-orientation",
@@ -64,9 +67,6 @@
     "cordova-plugin-statusbar",
     "cordova-plugin-vibration",
     "cordova-plugin-whitelist",
-    "org.apache.cordova.labs.keyboard",
-    "com.phonegap.plugins.barcodescanner@2.0.1",
-    "com.telerik.plugins.wkwebview@0.6.9",
-    "cordova-plugin-crosswalk-webview@1.5.0"
+    "org.apache.cordova.labs.keyboard"
   ]
 }
