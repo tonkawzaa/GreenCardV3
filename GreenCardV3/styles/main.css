@@ -364,7 +364,7 @@
     font-size: 1.7em;  
 }
 .h3{
-        font-size: 2em;  
+        font-size: 1.5em;  
 }
 .h4{
     font-weight: bold;
@@ -441,7 +441,7 @@ span{
 }
 
 .div100{
-    height:100vh;
+    height:455px;
     width: 100%; 
     
 }
@@ -451,20 +451,26 @@ span{
     
 }
 .divmain{
-    margin:3em 1em ;
-    height:90vh;
+    margin:1em 1em ;
+    height:430px;
     width: auto;
     background-color: #f1f1f1;
 }
 .divmain_reigister{
-    margin:4em 1em ;
-    height:30em;
+    margin:4em 1em 1em 1em ;
+    height:430px;
+    width: auto;
+    background-color: #f1f1f1;
+}
+.divmain_reigister_thank{
+    margin:4em 1em 1em 1em ;
+    height:385px;
     width: auto;
     background-color: #f1f1f1;
 }
 .divmain_welcome{
     margin:2em 0em 0em 0em;
-    height:90vh;
+    height:350px;
     width: auto;
     background-color: #f1f1f1;
 }
@@ -534,7 +540,7 @@ span{
 }
 .icon_welcome{
     width: 45%;
-    margin:2em auto 0em auto;
+    margin:1.8em auto 0em auto;
 }
 .BIElogodiv{
     position: absolute; 
@@ -589,7 +595,7 @@ span{
     width: 25%;
 }
 .drawermenu{
-    height:100vh;
+    height:455px;
     width: 100%;
     background-color: #00e676;
 }
@@ -721,7 +727,7 @@ span.k-widget.k-tooltip-validation {
     width:80%;*/
 }
 .scrollertermsofuse{
-    height: 60vh;
+    height: 295px;
     width:90%;
     margin:0px 15px;
 }
@@ -808,378 +814,5 @@ line-height: 2em;
 }
 /*  END COUNT DOWN */
 
-@media(min-height: 29em){
-    .datarootbottom{
-        margin:5.8em auto 0em auto;
-       
-    }
-}
-@media(min-height: 33em){
-    .datarootbottom{
-        margin:8em auto 0em auto;
-        
-    }
-}
 
-
-@media(min-width:22em) {
-    .logo{
-        margin:2em auto 0em auto;
-        width: 44%; 
-    }
-    .from_table_signin{
-        margin:4em auto 0em auto;
-    }
-    .from_table_signin_child{
-        margin:1em auto 0em auto;
-    }
-    .scrollertermsofuse{
-        height: 68vh;
-    }
-    .divmain_reigister{
-        margin:6em 1em ;
-        height:35em;        
-    }
-    .divmain_welcome{
-        margin:2em 0em 0em 0em;
-        height:90vh;
-    }
-    .divmain_BIE{
-        margin:3.5em 1em 3em 1em;
-        height:79vh;
-    }
-    .BIElogodiv{
-      top: 7%; 
-    }
-    .logo_reigister{
-        left: 32%;
-    }
-    .logo_welcome{
-        left: 32%;
-    }
-    .giftscroller{
-        height: 58vh;
-    }
-    .welcome{
-    margin-top: 4em;
-    }
-    .div_dot{
-    margin:6em auto 1em auto;      
-    }
-    .scrollViewinfopage{
-        margin:8.5em 1em 0em 1em;
-    }
-    .img_scrollview_gifts{
-        height:20vh;
-    }
-    .logo_detailsgift{
-        height:4em;
-    }
-
-    .h1{
-        font-size: 2em;
-    }
-    .h2{
-        font-size: 1.7em;   
-    }
-    .h3{
-        font-size: 2em;  
-    }
-    .h4{
-        
-        font-size: 1.3em;  
-    }
-    .h5{
-        font-size: 1.1em; 
-    }
-    .datarootbottom{
-        margin:8.5em auto 0em auto;
-        
-    }
-    .icon_keyin{
-        width:4.5em;
-    }
-    .grid li 
-    { 
-     height: 6em; 
-     }
-    .grid_Cert li 
-    { 
-     width: 20vw; 
-     }
-
-	.clock { top: 20vh; left: 32vw; }
-	.clock-12 {  top: -125px; left: 0px; }
-	.clock-1 {  top: -108.25px; left: 62.5px; }
-	.clock-2 {  top: -62.5px; left: 108.25px; }
-	.clock-3 {  top: 0px; left: 125px; }
-	.clock-4 {  top: 62.5px; left: 108.25px; }
-	.clock-5 {  top: 108.25px; left: 62.5px; }
-	.clock-6 {  top: 125px; left: 0px; }
-	.clock-7 {  top: 108.25px; left: -62.5px; }
-	.clock-8 {  top: 62.5px; left: -108.25px; }
-	.clock-9 { top: 0px; left: -125px; }
-	.clock-10 {  top: -62.5px; left: -108.25px; }
-	.clock-11 {  top: -108.25px; left: -62.5px;}
-	.clock-text {  top: 20vh; left: 50%; }
-	.clock-text_1line{
-     	top: 22vh; 
-	left: 50%; 
-	}
-	.clock-text_1linev2{
-        top: 22vh; left: 50%;
-	}
-	.btn-category-cancel {  margin-top: 47vh;}
-    .after_clock{
-        margin-top: 50vh;
-    }
-}
-@media(min-width:22em) and (min-height: 42em){
-    .datarootbottom{
-        margin:12em auto 0em auto;
-       
-    }
-}
-
-@media(min-width:36em) {
-    .logo{
-        margin:2em auto 0em auto;
-        width: 44%; 
-    }
-    .from_table_signin{
-        margin:4em auto 0em auto;
-    }
-    .from_table_signin_child{
-        margin:1em auto 0em auto;
-    }
-    .scrollertermsofuse{
-        height: 68vh;
-    }
-    .divmain_reigister{
-        margin:8em 1em ;
-        height:45em;        
-    }
-    .giftscroller{
-        height: 58vh;
-    }
-    .divmain_welcome{
-        margin:4em 0em 0em 0em;
-        height:85vh;
-    }
-    .divmain_BIE{
-        margin:7em 1em 3em 1em;
-        height:76.5vh;
-
-    }
-    .BIElogodiv{
-      top: 7%; 
-    }
-    .logo_reigister{
-        left: 30%;
-    }
-    .logo_welcome{
-        left: 33%;
-    }
-    .welcome{
-    margin-top: 5em;
-    }
-    .div_dot{
-    margin:8em auto 0px auto;        
-    }
-    .scrollViewinfopage{
-        margin:9.5em 1em 0em 1em;
-    }
-    .img_scrollview_gifts{
-        width:100%;
-        height:30vh;
-    }
-    .logo_detailsgift{
-        height:5em;
-    }
-
-    .h1{
-        font-size:2.5em;
-    }
-    .h2{
-        font-weight: bold;
-        font-size: 2em;  
-    }
-    .h3{
-        font-size: 2em;  
-    }
-    .h4{
-        
-        font-size: 1.7em;  
-    }
-    .h5{
-        font-size: 1.4em; 
-    }
-    .datarootbottom{
-        margin:14em auto 0em auto;
-    }
-     p{
-        font-size: 1.2em; 
-    }
-    .icon_keyin{
-        width:5.5em;
-    }
-    .grid li 
-    { 
-     height: 10em; 
-     }
-    .grid_Cert li 
-    { 
-     width: 20vw; 
-     }
-
-	.clock { top: 20vh; left: 38vw; }
-	.clock-12 { top: -180px; left: 0px; }
-	.clock-1 { top: -155.88px; left: 90px; }
-	.clock-2 { top: -90px; left: 155.88px; }
-	.clock-3 { top: 0px; left: 180px; }
-	.clock-4 { top: 90px; left: 155.88px; }
-	.clock-5 { top: 155.88px; left: 90px; }
-	.clock-6 { top: 180px; left: 0px; }
-	.clock-7 { top: 155.88px; left: -90px; }
-	.clock-8 { top: 90px; left: -155.88px; }
-	.clock-9 { top: 0px; left: -180px; }
-	.clock-10 { top: -90px; left: -155.88px; }
-	.clock-11 { top: -155.88px; left: -90px;}
-    .clock-text {  top: 20vh; left: 37%;   }
-    .clock-text_1line{ top: 22vh; left: 37%;  }
-    .clock-text_1linev2{left: 45%; }
-    .btn-category-cancel { margin-top: 69vh;}
-    .div_after_clock{
-        margin-top: -1em;
-        margin-bottom: -1em;
-    }
-    .after_clock{
-        margin-top: 52vh;
-    }
-}
-@media(min-width:36em) and (min-height: 60em){
-    .datarootbottom{
-        margin:21em auto 0em auto;
-    }
-}
-
-@media(min-width: 47em) {
-    .logo{
-        margin:2em auto 0em auto;
-        width: 44%; 
-    }
-    .from_table_signin{
-        margin:4em auto 0em auto;
-    }
-    .from_table_signin_child{
-        margin:1em auto 0em auto;
-    }
-    .scrollertermsofuse{
-        height: 68vh;
-    }
-    .divmain_reigister{
-        margin:10em 1em 5em 1em ;
-        height:52em;        
-    }
-    .giftscroller{
-        height: 50vh;
-    }
-    .divmain_welcome{
-        margin:4em 0em 0em 0em;
-        height:85vh;
-    }
-    .divmain_BIE{
-        margin:7em 1em 3em 1em;
-        height:77vh;
-
-    }
-    .BIElogodiv{
-      top: 7%; 
-    }
-    .logo_reigister{
-        left: 32%;
-    }
-    .logo_welcome{
-        left: 33%;
-    }
-    .welcome{
-    margin-top: 6em;
-    }
-    .div_dot{
-    margin:8em auto 0px auto;        
-    }
-    .scrollViewinfopage{
-        margin:15em 1em 0em 1em;
-    }
-    .img_scrollview_gifts{
-        width:100%;
-        height:30vh;
-    }
-    .logo_detailsgift{
-        height:5em;
-    }
-
-    .h1{
-        font-size:3.5em;
-    }
-    .h2{
-        font-weight: bold;
-        font-size: 2em;  
-    }
-    .h3{
-        font-size: 2em;  
-    }
-    .h4{
-        
-        font-size: 1.7em;  
-    }
-    .h5{
-        font-size: 1.4em; 
-    }
-    .datarootbottom{
-        margin:15em auto 0em auto;
-    }
-     p{
-        font-size: 1.2em; 
-    }
-    .icon_keyin{
-        width:7em;
-    }
-    .grid li 
-    { 
-     height: 10em; 
-     }
-    .grid_Cert li 
-    { 
-     width: 20vw; 
-     }
-
-    .earn_thank{
-        margin:25vh auto 0em auto;
-    }
-	.clock { top: 20vh; left: 38vw; }
-	.clock-12 { top: -180px; left: 0px; }
-	.clock-1 { top: -155.88px; left: 90px; }
-	.clock-2 { top: -90px; left: 155.88px; }
-	.clock-3 { top: 0px; left: 180px; }
-	.clock-4 { top: 90px; left: 155.88px; }
-	.clock-5 { top: 155.88px; left: 90px; }
-	.clock-6 { top: 180px; left: 0px; }
-	.clock-7 { top: 155.88px; left: -90px; }
-	.clock-8 { top: 90px; left: -155.88px; }
-	.clock-9 { top: 0px; left: -180px; }
-	.clock-10 { top: -90px; left: -155.88px; }
-	.clock-11 { top: -155.88px; left: -90px;}
-    .clock-text {  top: 20vh; left: 50%;   }
-    .clock-text_1line{ top: 22vh; left: 50%;  }
-    .clock-text_1linev2{left: 50%; }
-    .btn-category-cancel { margin-top: 69vh;}
-    .div_after_clock{
-        margin-top: -1em;
-        margin-bottom: -1em;
-    }
-    .after_clock{
-        margin-top: 52vh;
-    }
-}
 

@@ -23,12 +23,12 @@ app.reigister = kendo.observable({
         fields: {
             /*
             occupation: '',
-            citizenid: '1234567890',
+            citizenid: '1234567890123',
             birthdate: '',
-            mobile: '045281842',
+            mobile: '0452818421',
             gender: '',
-            confirmpassword: 'password',
-            password1: 'password',
+            confirmpassword: '123',
+            password1: '123',
             lastname: 'lastname',
             firstname: 'firstname',
             email: 'top@gmail.com',
