@@ -42,9 +42,9 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "iOSDeploymentTarget": "6.0",
+  "iOSDeploymentTarget": "8.0",
   "CorePlugins": [
-    "com.phonegap.plugins.barcodescanner@2.0.1",
+    "com.phonegap.plugins.barcodescanner@2.1.2",
     "com.telerik.plugins.wkwebview@0.6.9",
     "cordova-plugin-battery-status",
     "cordova-plugin-camera",

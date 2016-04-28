@@ -445,11 +445,6 @@ span{
     width: 100%; 
     
 }
-.div95{
-    height:95vh;
-    width: 100%; 
-    
-}
 .divmain{
     margin:1em 1em ;
     height:430px;
@@ -475,8 +470,8 @@ span{
     background-color: #f1f1f1;
 }
 .divmain_BIE{
-    margin:2.5em 1em 3em 1em;
-    height:79vh;
+    margin:2.5em 1em 1em 1em;
+    height:337px;
     width: auto;
     background-color: #f1f1f1;
 }
@@ -491,10 +486,16 @@ span{
 }
 .scrollViewinfo{
     
-    height:77vh;
+    height:325px;
 }
 .scrollViewinfopage{
     margin:8em 1em 0em 1em;
+}
+.img_barcode{
+    margin:10px auto;
+    display:block;
+    width: 45%; 
+    height: auto;
 }
 .logo{
     margin:1em auto 0em auto;
@@ -503,7 +504,7 @@ span{
     height: auto;
 }
 .earn_thank{
-    margin:20vh auto 0em auto;
+    margin:100px auto 0em auto;
     display:block;
     width: 60%; 
     height: auto;
@@ -544,7 +545,13 @@ span{
 }
 .BIElogodiv{
     position: absolute; 
-    top: 9%; 
+    top: 10%; 
+    left: 0%;
+    margin:0em 1em 0em 1em;
+}
+.information_BIElogodiv{
+    position: absolute; 
+    top: 8%; 
     left: 0%;
     margin:0em 1em 0em 1em;
 }
@@ -562,7 +569,7 @@ span{
     width:29%;
 }
 .logo_detailsgift{
-    width:auto;
+    width:4em;
     height:4em;
     margin:0px auto;
     display:block;
@@ -572,7 +579,7 @@ span{
     height: auto;
 }
 .logoCert{
-    width: 5em; 
+    width: 100%; 
     height: auto;
 }
 .tbCert{
@@ -580,7 +587,7 @@ span{
 }
 .img_scrollview_gifts{
     width:100%;
-    height:20vh;
+    height:100px;
 }
 .img_time{
     width: 2em;
@@ -601,8 +608,8 @@ span{
 }
 .drawercontainer_main{
     display:block;
-    width: 80%;
-    margin:2vh auto 0em auto;
+    width: 60%;
+    margin:2% auto 0em auto;
 }
 .drawercontainer{
     display:block;
@@ -619,10 +626,12 @@ span{
     height:auto;
 }
 .cerscroller{
-    height: 30vh;
+    height: 130px;
+   
 }
+
 .giftscroller{
-    height: 50vh;
+    height: 215px;
     
 }
 .grid li 
@@ -636,11 +645,11 @@ span{
     
  }
 .grid_Cert {
-list-style: none;
-margin: 0 0;
-padding: 0;
-display: block;
-text-align: center;
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+    display: block;
+    text-align: center;
 }
 .grid_Cert li 
 { 
@@ -693,6 +702,9 @@ text-align: center;
 }
 .delete_gap{
     margin:-0.25em 0em -0.25em 0em ;
+}
+.desc_to_publish_gap{
+    margin:0px 10px;
 }
 .from_bg{
     background-image: url('../images/button-green-outline.png');
@@ -758,7 +770,7 @@ span.k-widget.k-tooltip-validation {
 }
 
 
-.clock { position: absolute; top: 22vh; left: 32vw; }
+.clock { position: absolute; top: 100px; left: 100px; }
 .clock-container { position: relative;}
 .clock-12 { position: absolute; top: -100px; left: 0px; }
 .clock-1 { position: absolute; top: -86.6px; left: 50px; }
@@ -772,44 +784,32 @@ span.k-widget.k-tooltip-validation {
 .clock-9 { position: absolute; top: 0px; left: -100px; }
 .clock-10 { position: absolute; top: -50px; left: -86.6px; }
 .clock-11 { position: absolute; top: -86.6px; left: -50px;}
-.clock-text { position: absolute; top: 20vh; left: 50%; transform: translate(-50%, 0); 
-    text-align: center; 
-}
-.clock-text_1line{
-    position: absolute; top: 23vh; left: 50%; transform: translate(-50%, 0); 
-    text-align: center; 
-}
-.clock-text_1linev2{
-    position: absolute; top: 22vh; left: 50%; transform: translate(-50%, 0); 
+.clock-text { position: absolute; top:127px; left: 127px;   transform: translate(-50%, -50%);
     text-align: center; 
 }
 .after_clock{
-    margin-top: 60vh;
-}
-.margin_1{
-    margin-top: -0.1em;
-    margin-bottom: -0.1em;
+    margin-top: 250px;
 }
 
 /* test count down */
 ul.countdown {
-list-style: none;
-margin: 0 0;
-padding: 0;
-display: block;
-text-align: center;
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+    display: block;
+    text-align: center;
 }
 ul.countdown li {
-display: inline-block;
+    display: inline-block;
 }
 ul.countdown li span {
-font-size: 2em;
-/*font-weight: 300;*/
-line-height: 2em;
+    font-size: 2em;
+    /*font-weight: 300;*/
+    line-height: 2em;
 }
 ul.countdown li.seperator {
-font-size: 2em;
-line-height: 2em;
+    font-size: 2em;
+    line-height: 2em;
 /*vertical-align: top;*/
 }
 /*  END COUNT DOWN */
