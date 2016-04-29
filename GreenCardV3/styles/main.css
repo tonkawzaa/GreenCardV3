@@ -557,6 +557,7 @@ span{
 }
 .BIElogoimg{
     width:100%;
+    height: auto;
 }
 .BIElogo_tdleft
 {
@@ -732,11 +733,6 @@ span.k-widget.k-tooltip-validation {
     margin:2em auto 0em auto;
     display:block;
     color:#fff;
-    /*
-    position: absolute; 
-    top: 97vh; 
-    left: 20%; 
-    width:80%;*/
 }
 .scrollertermsofuse{
     height: 295px;
@@ -814,5 +810,141 @@ ul.countdown li.seperator {
 }
 /*  END COUNT DOWN */
 
+/*  320x533 andriod Phone  */
+@media(max-width:359px)and (min-height: 480px) {
+    .div100{
+        height:512px; 
+    }
+    .datarootbottom{
+        margin:5.6em auto 0em auto;
+    }
+    .divmain{
+        height:483px;
+    }
+    .scrollertermsofuse{
+        height: 350px;
+    }
+    .divmain_reigister{
+        margin:4em 1em 1em 1em ;
+        height:438px;
+    }
+    .divmain_reigister_thank{
+        margin:4em 1em 1em 1em ;
+        height:438px;
+    }
+    .divmain_welcome{
+        margin:2em 0em 0em 0em;
+        height:420px;
+    }
+    .drawermenu{
+        height:508px;
+    }
+    .divmain_BIE{
+        margin:2.5em 1em 1em 1em;
+        height:390px;
+    }
+    .scrollViewinfo{
+        height:370px;
+    }
+    .cerscroller{
+        height: 190px;
+    }
+    .giftscroller{
+        height: 260px;
+    }
+}
 
-
+/*  320x568  iphone5  */
+@media(max-width:350px)and (min-height: 533px) {
+    .div100{
+        height:547px; 
+    }
+    .datarootbottom{
+        margin:8em auto 0em auto;
+    }
+    .divmain{
+        height:518px;
+    }
+    .scrollertermsofuse{
+        height: 380px;
+    }
+    .divmain_reigister{
+        margin:4em 1em 1em 1em ;
+        height:473px;
+    }
+    .divmain_reigister_thank{
+        margin:4em 1em 1em 1em ;
+        height:473px;
+    }
+    .divmain_welcome{
+        margin:2em 0em 0em 0em;
+        height:454px;
+    }
+    .drawermenu{
+        height:544px;
+    }
+    .divmain_BIE{
+        margin:2.5em 1em 1em 1em;
+        height:425px;
+    }
+    .scrollViewinfo{
+        height:403px;
+    }
+    .cerscroller{
+        height: 220px;
+    }
+    .giftscroller{
+        height: 290px;
+    }
+}
+/*  360x640		Galaxy S3 S4 S5 S6  ,Galaxy Note II  ,Xperia Z */
+@media(min-width:351px) {
+    .div100{
+        height:600px; 
+    }
+    .datarootbottom{
+        margin:12em auto 0em auto;
+    }
+    .divmain{
+        height:592px;
+    }
+    .scrollertermsofuse{
+        height: 450px;
+    }
+    .divmain_reigister{
+        margin:4em 1em 1em 1em ;
+        height:548px;
+    }
+    .divmain_reigister_thank{
+        margin:4em 1em 1em 1em ;
+        height:548px;
+    }
+    .divmain_welcome{
+        margin:2em 0em 0em 0em;
+        height:530px;
+    }
+    .drawermenu{
+        height:617px;
+    }
+    .welcome{
+        margin-top: 3em;
+    }
+    .divmain_BIE{
+        margin:3.6em 1em 1em 1em;
+        height:482px;
+    }
+    .scrollViewinfo{
+        height:465px;
+    }
+    .cerscroller{
+        height: 260px;
+    }
+    .giftscroller{
+        height: 350px;
+    }
+    .img_scrollview_gifts{
+        height:135px;
+    }
+    .clock { top: 100px; left: 125px; }
+    .clock-text {  top:127px; left: 150px; }
+}

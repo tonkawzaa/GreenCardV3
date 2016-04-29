@@ -21,7 +21,7 @@ app.reigister = kendo.observable({
     var token= null ;
     var reigisterModel = kendo.observable({
         fields: {
-            /*
+            
             occupation: '',
             citizenid: '1234567890123',
             birthdate: '',
@@ -32,8 +32,8 @@ app.reigister = kendo.observable({
             lastname: 'lastname',
             firstname: 'firstname',
             email: 'top@gmail.com',
-            */
             
+            /*
             occupation: '',
             citizenid: '',
             birthdate: '',
@@ -44,7 +44,7 @@ app.reigister = kendo.observable({
             lastname: '',
             firstname: '',
             email: '',
-            
+            */
         },
 
         submit: function(e) {
