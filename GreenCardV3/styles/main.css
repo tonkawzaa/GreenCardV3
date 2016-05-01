@@ -636,14 +636,10 @@ span{
     
 }
 .grid li 
-{ 
-     
+{  
      float: left;
      width: 50%; 
-     height: 6em; 
-     
-     
-    
+     height: 8em;  
  }
 .grid_Cert {
     list-style: none;
@@ -900,38 +896,38 @@ ul.countdown li.seperator {
 /*  360x640		Galaxy S3 S4 S5 S6  ,Galaxy Note II  ,Xperia Z */
 @media(min-width:351px) {
     .div100{
-        height:600px; 
+        height:593px; 
     }
     .datarootbottom{
-        margin:12em auto 0em auto;
+        margin:11.5em auto 0em auto;
     }
     .divmain{
-        height:592px;
+        height:585px;
     }
     .scrollertermsofuse{
         height: 450px;
     }
     .divmain_reigister{
         margin:4em 1em 1em 1em ;
-        height:548px;
+        height:540px;
     }
     .divmain_reigister_thank{
         margin:4em 1em 1em 1em ;
-        height:548px;
+        height:540px;
     }
     .divmain_welcome{
         margin:2em 0em 0em 0em;
-        height:530px;
+        height:520px;
     }
     .drawermenu{
-        height:617px;
+        height:611px;
     }
     .welcome{
         margin-top: 3em;
     }
     .divmain_BIE{
         margin:3.6em 1em 1em 1em;
-        height:482px;
+        height:475px;
     }
     .scrollViewinfo{
         height:465px;
@@ -947,4 +943,322 @@ ul.countdown li.seperator {
     }
     .clock { top: 100px; left: 125px; }
     .clock-text {  top:127px; left: 150px; }
+     .earn_thank{
+        margin:140px auto 0em auto;
+    }
+}
+/********  375x667		//iphone6  ********/
+@media(min-width:365px) {
+    .div100{
+        height:645px; 
+    }
+    .datarootbottom{
+        margin:13.1em auto 0em auto;
+    }
+    .divmain{
+        height:617px;
+    }
+    .scrollertermsofuse{
+        height: 470px;
+    }
+    .divmain_reigister{
+        margin:6em 1em 1em 1em ;
+        height:543px;
+    }
+    .divmain_reigister_thank{
+        margin:6em 1em 1em 1em ;
+        height:543px;
+    }
+    .divmain_welcome{
+        margin:3em 0em 0em 0em;
+        height:540px;
+    }
+    .drawermenu{
+        height:643px;
+    }
+    .divmain_BIE{
+        margin:3.6em 1em 1em 1em;
+        height:508px;
+    }
+    .scrollViewinfo{
+        height:490px;
+    }
+    .cerscroller{
+        height: 280px;
+    }
+    .giftscroller{
+        height: 380px;
+    }
+    .clock { top: 100px; left: 130px; }
+    .clock-text {  top:127px; left: 155px; }
+    .earn_thank{
+        margin:160px auto 0em auto;
+    }
+}
+/***************   414x736		//iphone6 Plus   ******/
+@media(min-width:404px) {
+    
+    .div100{
+        height:714px; 
+    }
+    .datarootbottom{
+        margin:16.6em auto 0em auto;
+    }
+    .divmain{
+        height:685px;
+    }
+    .scrollertermsofuse{
+        height: 540px;
+    }
+    .divmain_reigister{
+        margin:6em 1em 1em 1em ;
+        height:612px;
+    }
+    .divmain_reigister_thank{
+        margin:6em 1em 1em 1em ;
+        height:612px;
+    }
+    .thankyou{
+        margin-top: 6em;
+    }
+    .divmain_welcome{
+        margin:5em 0em 0em 0em;
+        height:580px;
+    }
+    .h4{
+        font-size: 1.6em; 
+    }
+    .logo_welcome{
+        left: 32%;
+        margin:4em auto 0em auto;
+    }
+    .drawermenu{
+        height:712px;
+    }
+    .divmain_BIE{
+        margin:6em 1em 1em 1em;
+        height:542px;
+    }
+    .scrollViewinfopage{
+        margin:10em 1em 0em 1em;
+    }
+    .scrollViewinfo{
+        height:520px;
+    }
+    .img_scrollview_gifts{
+        height:150px;
+    }
+    .icon_keyin{
+        width:4.5em;
+    }
+    .clock {  top: 125px; left: 150px; }
+    .clock-12 {  top: -125px; left: 0px; }
+    .clock-1 {  top: -108.25px; left: 62.5px; }
+    .clock-2 {  top: -62.5px; left: 108.25px; }
+    .clock-3 {  top: 0px; left: 125px; }
+    .clock-4 {  top: 62.5px; left: 108.25px; }
+    .clock-5 {  top: 108.25px; left: 62.5px; }
+    .clock-6 {  top: 125px; left: 0px; }
+    .clock-7 { top: 108.25px; left: -62.5px; }
+    .clock-8 {  top: 62.5px; left: -108.25px; }
+    .clock-9 {  top: 0px; left: -125px; }
+    .clock-10 { top: -62.5px; left: -108.25px; }
+    .clock-11 {  top: -108.25px; left: -62.5px;}
+    .clock-text {  top:160px; left: 185px;     }
+    .after_clock{
+        margin-top: 330px;
+    }
+}
+/***************   600x960		//LG	G Pad 8.3   ******/
+@media(min-width:590px) {
+    .div100{
+        height:890px; 
+    }
+    .datarootbottom{
+        margin:18.8em auto 0em auto;
+    }
+    .divmain{
+        height:858px;
+    }
+    .scrollertermsofuse{
+        height: 700px;
+    }
+    .divmain_reigister{
+        margin:7em 1em 1em 1em ;
+        height:762px;
+    }
+    .divmain_reigister_thank{
+        margin:7em 1em 1em 1em ;
+        height:762px;
+    }
+    .thankyou{
+        margin-top: 7em;
+    }
+    .h1{
+        font-size: 2em;
+    }
+    .h3{
+        font-size: 2em;  
+    }
+     .divmain_welcome{
+        margin:6em 0em 0em 0em;
+        height:720px;
+    }
+    .welcome{
+        margin-top: 4em;
+    }
+    .drawermenu{
+        height:887px;
+    }
+    .divmain_BIE{
+        margin:7.3em 1em 1em 1em;
+        height:683px;
+    }
+    .scrollViewinfopage{
+        margin:12em 1em 0em 1em;
+    }
+    .scrollViewinfo{
+        height:668px;
+    }
+    .cerscroller{
+        height: 330px;
+    }
+    .img_scrollview_gifts{
+        height:190px;
+    }
+    .giftscroller{
+        height: 480px;
+    }
+    .grid li 
+    {  
+         height: 10em;  
+     }
+        .icon_keyin{
+        width:5.5em;
+    }
+    .clock {  top: 165px; left: 228px; }
+    .clock-12 {  top: -165px; left: 0px; }
+    .clock-1 {  top: -143px; left: 82.5px; }
+    .clock-2 {  top: -82.5px; left: 143px; }
+    .clock-3 {  top: 0px; left: 165px; }
+    .clock-4 {  top: 82.5px; left: 143px; }
+    .clock-5 {  top: 143px; left: 82.5px; }
+    .clock-6 {  top: 165px; left: 0px; }
+    .clock-7 { top: 143px; left: -82.5px; }
+    .clock-8 {  top: 82.5px; left: -143px; }
+    .clock-9 {  top: 0px; left: -165px; }
+    .clock-10 { top: -82.5px; left: -143px; }
+    .clock-11 {  top: -143px; left: -82.5px;}
+    .clock-text {  top:190px; left: 265px;     }
+    .after_clock{
+        margin-top: 410px;
+    }
+    .earn_thank{
+        margin:190px auto 0em auto;
+    }
+}
+/***************   600x1024 	//andriod tablet   ******/
+@media(min-width:590px)  and (min-height: 970px)  {
+    
+    .div100{
+        height:1000px; 
+    }
+    .datarootbottom{
+        margin:25.8em auto 0em auto;
+    }
+    .divmain{
+        height:971px;
+    }
+    .scrollertermsofuse{
+        height: 820px;
+    }
+    .divmain_reigister{
+        margin:7em 1em 1em 1em ;
+        height:875px;
+    }
+    .divmain_reigister_thank{
+        margin:7em 1em 1em 1em ;
+        height:875px;
+    }
+    .divmain_welcome{
+        margin:6em 0em 0em 0em;
+        height:830px;
+    }
+    .drawermenu{
+        height:1000px;
+    }
+    .divmain_BIE{
+        margin:7.3em 1em 1em 1em;
+        height:796px;
+    }
+    .scrollViewinfo{
+        height:772px;
+    }
+    .cerscroller{
+        height: 444px;
+    }
+    .img_scrollview_gifts{
+        height:210px;
+    }
+    .giftscroller{
+        height: 600px;
+    }
+    .clock-text {  top:210px; left: 268px;     }
+}
+/***************   768x1024	//ipad   ******/
+@media(min-width:750px)  and (max-height: 1024px)  {
+    .div100{
+        height:1000px; 
+    }
+    .datarootbottom{
+        margin:21.1em auto 0em auto;
+    }
+    .divmain_reigister{
+        margin:9em 1em 1em 1em ;
+        height:843px;
+    }
+    .divmain_reigister_thank{
+         margin:9em 1em 1em 1em ;
+        height:843px;
+    }
+    .welcome{
+        margin-top:6.5em;
+    }
+    .h4{
+        font-size: 2em; 
+    }
+    .divmain_BIE{
+        margin:9em 1em 1em 1em;
+        height:790px;
+    }
+    .drawercontainer_main{
+    
+        margin:35% auto 0em auto;
+    }
+    .divmain_BIE{
+        margin:8.5em 1em 1em 1em;
+        height:777px;
+    }
+    .scrollViewinfo{
+        height:755px;
+    }
+    .cerscroller{
+        height: 330px;
+    }
+    .scrollViewinfopage{
+        margin:15em 1em 0em 1em;
+    }
+    .giftscroller{
+        height: 520px;
+    }
+     .grid li 
+    {  
+         height: 13em;  
+    }
+    .clock {  top: 165px; left: 310px; }
+    .clock-text {  top:210px; left: 355px;     }
+    
+        .earn_thank{
+        margin:250px auto 0em auto;
+    }
 }

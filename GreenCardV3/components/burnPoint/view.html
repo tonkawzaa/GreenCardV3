@@ -22,6 +22,7 @@
         <table></table>
        <div data-role="scroller"  class="bgcolor scrollViewinfopage  giftscroller"  >
            <div class="bgcolor">
+               
             <div class="km-scrollview-overlay  km-scroll-container2"
                 data-role="scrollview"
                 data-source="app.burnPoint.eventgiftsdata"
@@ -39,17 +40,25 @@
               
                
            </script>
-          </div>
-             <ul id="giftslist" class="grid bgcolor"></ul>
-           
-           <script id="giftslisttmp" type="text/x-kendo-template">
+        
+           <ul id="giftslist" class="grid bgcolor"></ul>
+               
+            <script id="giftslisttmp" type="text/x-kendo-template">
                <a href="components/detailsgifts/view.html?requiredpoints=#: required_points#&id=#: id #"> 
-               <img class="BIElogoimg" src="#: image_url #"/>
-             </a>
-           </script>
+                   <img class="BIElogoimg" src="#: image_url #"/>
+               </a>
+            </script>
             
+                <div class="button-group  " >
+                        <a class="primary2" data-role="button" data-transition="slide:left reverse" href="#components/welcome/view.html">ยกเลิก</a>
+                </div>
+
+          </div>
+              
       </div>
+        
     </div>
+    
     
     <div id="burnPoint_BIElogodiv" class="BIElogodiv">
 
