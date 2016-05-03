@@ -6,8 +6,8 @@
   "DisplayName": "Green Card application",
   "Author": "",
   "Description": "Green Card application",
-  "BundleVersion": "1.1",
-  "AndroidVersionCode": "2",
+  "BundleVersion": "1.2",
+  "AndroidVersionCode": "3",
   "iOSDeviceFamily": [
     "1",
     "2"
