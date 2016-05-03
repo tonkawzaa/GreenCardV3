@@ -118,8 +118,8 @@ app.detailsproductsbyid = kendo.observable({
          var confirmsdatabyid = {
                 confirms: function() {
                     
-                    //navigator.notification.alert(item);
-                    //navigator.notification.alert(detailsshopbyidModel.fields.selectedshop);
+                   // navigator.notification.alert(item);
+                   // navigator.notification.alert(detailsshopbyidModel.fields.selectedshop);
                     if(detailsshopbyidModel.fields.selectedshop == null)
                     {
                         navigator.notification.alert("กรุณาระบุห้างสรรพสินค้า");
