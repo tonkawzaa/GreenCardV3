@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "5.0.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.CAMERA",
     "android.permission.INTERNET"
@@ -44,13 +44,10 @@
   ],
   "iOSDeploymentTarget": "8.0",
   "CorePlugins": [
-    "com.phonegap.plugins.barcodescanner@2.1.2",
-    "com.telerik.plugins.wkwebview@0.6.9",
     "cordova-plugin-battery-status",
     "cordova-plugin-camera",
     "cordova-plugin-console",
     "cordova-plugin-contacts",
-    "cordova-plugin-crosswalk-webview@1.5.0",
     "cordova-plugin-device",
     "cordova-plugin-device-motion",
     "cordova-plugin-device-orientation",
@@ -67,6 +64,9 @@
     "cordova-plugin-statusbar",
     "cordova-plugin-vibration",
     "cordova-plugin-whitelist",
-    "org.apache.cordova.labs.keyboard"
+    "org.apache.cordova.labs.keyboard",
+    "com.phonegap.plugins.barcodescanner@2.1.2",
+    "com.telerik.plugins.wkwebview@0.6.9",
+    "cordova-plugin-crosswalk-webview@1.5.0"
   ]
 }
