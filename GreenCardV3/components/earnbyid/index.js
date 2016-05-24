@@ -10,6 +10,7 @@ var categoryname1= "อาหารและเครื่องดื่ม";
 
 app.earnbyid = kendo.observable({
     
+    /*
     dataearnbyid1: new kendo.data.DataSource({
                 type: "data",
             transport: {
@@ -396,7 +397,7 @@ app.earnbyid = kendo.observable({
             },
     }),
     
-    
+    */
     onShow: function(e) {
         var viewparams = e.view.params; 
         var Scategoryname = viewparams.Scategoryname;
@@ -458,9 +459,23 @@ app.earnbyid = kendo.observable({
                             {
                                 navigator.notification.alert("ไม่พบสินค้า");
                             }else{
+                                /*
+                                if(Scategoryname=="อาหารและเครื่องดื่ม"){
+                                    e.view.element.find("#searchearnbyid1").kendoMobileListView({
+            			            template: kendo.template($("#earnlisttmp").html()),
+            			            dataSource: result.data,
+                                    });
+                                }else if(Scategoryname=="บริการสุขภาพ"){
+                                    e.view.element.find("#searchearnbyid2").kendoMobileListView({
+            			            template: kendo.template($("#earnlisttmp").html()),
+            			            dataSource: result.data,
+                                    });
+                                }
+                                */
+                                
                                 e.view.element.find("#searchearnbyid1").kendoMobileListView({
-        			            template: kendo.template($("#earnlisttmp").html()),
-        			            dataSource: result.data,
+            			            template: kendo.template($("#earnlisttmp").html()),
+            			            dataSource: result.data,
                                     });
                             }
                              

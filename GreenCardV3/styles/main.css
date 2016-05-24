@@ -487,6 +487,12 @@ span{
 .bgcolorhome{
     background-color: #D8E9F8;
 }
+.bgcolorwhite{
+    background-color: #fff;
+}
+.border{
+    border: 0.1em solid #333333;
+}
 .colorgreen{
     color:#008745;
 }
@@ -575,11 +581,16 @@ span{
 .BIElogo_tdright{
     width:29%;
 }
+.listimg{
+    height: auto;
+    width:auto;
+}
 .logo_detailsgift{
     width:4em;
     height:4em;
     margin:0px auto;
     display:block;
+    border: 0.4em solid #fff;
 }
 .logo_store{
     width: 80%; 
@@ -589,12 +600,12 @@ span{
     width: 100%; 
     height: auto;
 }
-.tbCert{
-    
-}
 .img_scrollview_gifts{
-    width:100%;
+    margin:-1px auto;
+    display:block;
+    width:auto;
     height:100px;
+    
 }
 .img_time{
     width: 2em;
@@ -645,8 +656,12 @@ span{
 {  
      float: left;
      width: 50%; 
-     height: 8em;  
+     height: 5em;  
  }
+.grid_img{
+    height: 4.5em;
+    width: auto; 
+}
 .grid_Cert {
     list-style: none;
     margin: 0 0;
@@ -1000,6 +1015,13 @@ ul.countdown li.seperator {
     .earn_thank{
         margin:160px auto 0em auto;
     }
+    .grid li 
+    {  
+         height: 6.5em;  
+     }
+    .grid_img{
+        height: 6em;
+    }
 }
 /***************   414x736		//iphone6 Plus   ******/
 @media(min-width:404px) {
@@ -1139,6 +1161,9 @@ ul.countdown li.seperator {
     {  
          height: 10em;  
      }
+    .grid_img{
+        height: 9.5em; 
+    }
         .icon_keyin{
         width:5.5em;
     }
@@ -1260,6 +1285,9 @@ ul.countdown li.seperator {
      .grid li 
     {  
          height: 13em;  
+    }
+    .grid_img{
+        height: 13em;
     }
     .clock {  top: 165px; left: 310px; }
     .clock-text {  top:210px; left: 355px;     }
