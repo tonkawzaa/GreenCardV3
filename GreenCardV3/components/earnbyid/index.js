@@ -398,6 +398,14 @@ app.earnbyid = kendo.observable({
     
     
     onShow: function(e) {
+        var viewparams = e.view.params; 
+        var Scategoryname = viewparams.Scategoryname;
+        var txtSearchid = viewparams.txtSearchid;
+        
+        //navigator.notification.alert(Scategoryname);
+        // navigator.notification.alert(txtSearchid);
+    
+        
          var header_token = null;
             
            	var token = null;
@@ -429,19 +437,59 @@ app.earnbyid = kendo.observable({
                             navigator.notification.alert(result);    
                         }
                 });
-                
+        
+        if(Scategoryname)
+        {
+            if (txtSearchid ==''){
+                navigator.notification.alert("กรุณากรอกข้อความค้นหา");
+            }else
+            {
+                // navigator.notification.alert(earnbyidModel.fields.txtSearchid1);
+                $.ajax({
+                        type: "POST",
+                        url: server_location+"/api/v1/search_products_in_category",
+                        contentType: "application/json",
+                        data: JSON.stringify({ search_string: txtSearchid,
+                                               category_name: Scategoryname,
+                                             }),
+                        success: function(result) {
+                            //navigator.notification.alert(result);
+                            if(result.data=='')
+                            {
+                                navigator.notification.alert("ไม่พบสินค้า");
+                            }else{
+                                e.view.element.find("#searchearnbyid1").kendoMobileListView({
+        			            template: kendo.template($("#earnlisttmp").html()),
+        			            dataSource: result.data,
+                                    });
+                            }
+                             
+
+                        },
+                        error: function(result) {
+                            navigator.notification.alert(result);
+                            //navigator.notification.alert("เชื่อมต่อผิดพลาด");
+                            
+                        }
+                       
+                  });
+            }
+            
+        }
+          
              
         
       
     },
-    afterShow: function() {}
+    afterShow: function() {},
+    
 });
 
 (function(parent) {
     
 
     var earnbyidModel = kendo.observable({
-       
+        
         information: function() {
 				app.mobileApp.navigate('components/information/view.html');
         },
@@ -499,6 +547,84 @@ app.earnbyid = kendo.observable({
             {
                 app.mobileApp.navigate('components/earnbyid/earnby12.html');
             },
+        
+        fields: {            
+            txtSearchid1: '',
+        },
+        searchid1:function()
+        {
+            var Scategoryname ='อาหารและเครื่องดื่ม';
+            var passparameter = 'components/earnbyid/earnby1.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+           // navigator.notification.alert(earnbyidModel.fields.txtSearchid1);
+            app.mobileApp.navigate(passparameter);
+            //app.mobileApp.navigate('components/earnbyid/earnby1.html?txtSearchid=0&Scategoryname=อาหารและเครื่องดื่ม');
+        },
+        searchid2:function()
+        {
+            var Scategoryname ='บริการสุขภาพ';
+            var passparameter = 'components/earnbyid/earnby2.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid3:function()
+        {
+            var Scategoryname ='เครื่องนุ่งห่ม';
+            var passparameter = 'components/earnbyid/earnby3.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid4:function()
+        {
+            var Scategoryname ='อิเล็กทรอนิกส์';
+            var passparameter = 'components/earnbyid/earnby4.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid5:function()
+        {
+            var Scategoryname ='เครื่องใช้ไฟฟ้าและแสงสว่าง';
+            var passparameter = 'components/earnbyid/earnby5.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid6:function()
+        {
+            var Scategoryname ='เครื่องใช้สำนักงาน';
+            var passparameter = 'components/earnbyid/earnby6.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid7:function()
+        {
+            var Scategoryname ='เครื่องใช้ในบ้านเรือน';
+            var passparameter = 'components/earnbyid/earnby7.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid8:function()
+        {
+            var Scategoryname ='วัสดุก่อสร้าง';
+            var passparameter = 'components/earnbyid/earnby8.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid9:function()
+        {
+            var Scategoryname ='โรงแรม';
+            var passparameter = 'components/earnbyid/earnby9.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid10:function()
+        {
+            var Scategoryname ='การเดินทาง';
+            var passparameter = 'components/earnbyid/earnby10.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid11:function()
+        {
+            var Scategoryname ='สถานที่ท่องเที่ยว';
+            var passparameter = 'components/earnbyid/earnby11.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
+        searchid12:function()
+        {
+            var Scategoryname ='สถานีบริการ';
+            var passparameter = 'components/earnbyid/earnby12.html?txtSearchid='+earnbyidModel.fields.txtSearchid1+'&Scategoryname='+Scategoryname;
+            app.mobileApp.navigate(passparameter);
+        },
        
     });
 

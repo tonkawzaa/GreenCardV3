@@ -78,8 +78,8 @@
                 <table class="after_clock">
                     
                 </table>
-                 <div id="earnbyid12" data-role="listview" data-source="app.earnbyid.dataearnbyid12" data-template="earnlisttmp" class="grid"></div>
-       
+                 <!--<div id="earnbyid12" data-role="listview" data-source="app.earnbyid.dataearnbyid12" data-template="earnlisttmp" class="grid"></div>
+               -->
                  <script id="earnlisttmp" type="text/x-kendo-template">
                    <a href="components/detailsproductsbyid/view.html?id=#: id #">
             
@@ -87,6 +87,21 @@
                     
                      </a>
                    </script>
+                 
+                 <div class="button-group">
+                     <table class="tdwidth">
+                         <tr>
+                             <td class="tdwidth">
+                                 <input id="txtSearchid12" class="sinput" name="txtSearchid12"  data-bind="value: earnbyidModel.fields.txtSearchid1"  type="text" placeholder="ชื่อที่ต้องการค้นหา"> 
+                             </td>
+                             <td >
+                                 <a data-role="button"  class="primary"  data-bind="events: { click: earnbyidModel.searchid12 }">ค้นหา</a>
+                             </td>
+                         </tr>
+                     </table>
+                 </div>
+                 
+                 <ul id="searchearnbyid1" class="grid"></ul>
                  <div class="button-group  " >
                         <a class="primary2" data-role="backbutton" data-transition="slide:left reverse" >ยกเลิก</a>
                 </div>
