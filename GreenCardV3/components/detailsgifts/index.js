@@ -92,7 +92,7 @@ app.detailsgifts = kendo.observable({
                         success: function(result) {
                             //navigator.notification.alert(result.data);
                             
-                             if(result.data.new_points)
+                             if(!result.data.error_code)
                             {
                                 kendo.bind($('#sumitgift_code'),result.data);
                                 var activeView = '.sumit-view';
